@@ -228,7 +228,13 @@ export const UpdateBouteilleImage = () => {
     const deleteBouteille = (id: number) => {
         
     }
+    const recordImages = () => {
+        if(inputState) { setInputState(false)} else {setInputState(true)}
+    }
     const showInput = () => {
+        if(inputState) { setInputState(false)} else {setInputState(true)}
+    }
+    const cancel = () => {
         if(inputState) { setInputState(false)} else {setInputState(true)}
     }
     return (
@@ -248,10 +254,10 @@ export const UpdateBouteilleImage = () => {
                 </Col>
             </Row>
             <Row>
-                <Col sm={6}><h4 className="all disinline">Photos de la bouteille&nbsp;&nbsp;{bouteilleState.bouteilleId}&nbsp;&nbsp;{bouteilleState.libelléBouteille}</h4></Col>
+                <Col sm={5}><h4 className="all disinline">Photos de la bouteille&nbsp;&nbsp;{bouteilleState.bouteilleId}&nbsp;&nbsp;{bouteilleState.libelléBouteille}</h4></Col>
             </Row>
             <Row>
-                <Col sm={6}>
+                <Col sm={5}>
                     <CardGroup>
                         <BouteilleImageList items={bouteilleImagesState} 
                             updateBout={updateBouteille}
@@ -260,8 +266,19 @@ export const UpdateBouteilleImage = () => {
                     </CardGroup>
                 </Col>
             </Row>
-            <Button variant="success" type="button" value="+" onClick={showInput}></Button>
-            
+            <Row>
+                <Col sm={1}>
+                    <Button className="all" variant="success" type="button" onClick={recordImages}>Enregistrer</Button>
+                </Col>
+                <Col sm={1}></Col>
+                <Col sm={1}>
+                    <Button className="alc" variant="success" type="button" onClick={showInput}>Ajouter</Button>
+                </Col>
+                <Col sm={1}></Col>
+                <Col sm={1}>
+                    <Button className="alr" variant="success" type="button" onClick={cancel}>Abandonner</Button>
+                </Col>
+            </Row>
         </Form>
     </Container>
     )
