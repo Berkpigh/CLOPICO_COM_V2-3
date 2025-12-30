@@ -4,9 +4,10 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { BASE_URL } from "../../../../core/infrastructures/https/http-handler";
 import { RootState } from "../../../../redux/store/storeRedux";
-import { IOneBotWithImag, bouteille, LBouteilleImages, Mes_Error, MesE } from "../../models";
+import { IOneBotWithImag, bouteille, LBouteilleImages, ajoutBouteilleImage, Mes_Error, MesE } from "../../models";
 import { FetchGetOneBotImages, FetchPutOneBotImages } from "../../services/apis";
 import { BouteilleImageList } from "../BouteilleImageList";
+import { AjoutModal } from "../AjoutModal"
 
 export const UpdateBouteilleImage = () => {
     const etatimagloaded = useSelector((state: RootState) => state.etatimage.loaded);
@@ -114,6 +115,14 @@ export const UpdateBouteilleImage = () => {
         imageDesc: "",
         imageUrl: ""
     }])
+    const [ajoutImageState, setAjoutImageState] = useState<ajoutBouteilleImage>({
+        bouteilleImageId: 0,
+        bouteilleId: 0,   
+        imageDesc: "",
+        imageUrl: "",
+        show: false
+    })
+
     const [inputState, setInputState] = useState<boolean>(false)
     const [error1State, setError1State] = useState<boolean>(false)
     const [errorMsgState, setErrorMsgState] = useState<MesE>([
@@ -231,8 +240,15 @@ export const UpdateBouteilleImage = () => {
     const recordImages = () => {
         if(inputState) { setInputState(false)} else {setInputState(true)}
     }
-    const showInput = () => {
-        if(inputState) { setInputState(false)} else {setInputState(true)}
+    const showAjout = () => { 
+        let newImage: ajoutBouteilleImage = {
+            bouteilleImageId: 0,
+            bouteilleId: 0,   
+            imageDesc: "",
+            imageUrl: "",
+            show: true
+        }
+        setAjoutImageState(newImage)
     }
     const cancel = () => {
         if(inputState) { setInputState(false)} else {setInputState(true)}
@@ -272,7 +288,7 @@ export const UpdateBouteilleImage = () => {
                 </Col>
                 <Col sm={1}></Col>
                 <Col sm={1}>
-                    <Button className="alc" variant="success" type="button" onClick={showInput}>Ajout</Button>
+                    <Button className="alc" variant="success" type="button" onClick={showAjout}>Ajout</Button>
                 </Col>
                 <Col sm={1}></Col>
                 <Col sm={1}>
@@ -280,6 +296,7 @@ export const UpdateBouteilleImage = () => {
                 </Col>
             </Row>
         </Form>
+        <AjoutModal item={ajoutImageState} />
     </Container>
     )
 }
