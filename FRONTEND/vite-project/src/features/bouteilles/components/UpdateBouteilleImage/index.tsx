@@ -268,15 +268,15 @@ export const UpdateBouteilleImage = () => {
             </Row>
             <Row>
                 <Col sm={1}>
-                    <Button className="all" variant="success" type="button" onClick={recordImages}>Enregistrer</Button>
+                    <Button className="all" variant="success" type="button" onClick={recordImages}>OK</Button>
                 </Col>
                 <Col sm={1}></Col>
                 <Col sm={1}>
-                    <Button className="alc" variant="success" type="button" onClick={showInput}>Ajouter</Button>
+                    <Button className="alc" variant="success" type="button" onClick={showInput}>Ajout</Button>
                 </Col>
                 <Col sm={1}></Col>
                 <Col sm={1}>
-                    <Button className="alr" variant="success" type="button" onClick={cancel}>Abandonner</Button>
+                    <Button className="alr" variant="success" type="button" onClick={cancel}>Abandon</Button>
                 </Col>
             </Row>
         </Form>
