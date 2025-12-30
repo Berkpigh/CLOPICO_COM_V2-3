@@ -1,0 +1,13 @@
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\obj\Debug\net8.0\backend.minimalapi.Core.Prod.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\obj\Debug\net8.0\backend.minimalapi.Core.Prod.Models.AssemblyInfoInputs.cache
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\obj\Debug\net8.0\backend.minimalapi.Core.Prod.Models.AssemblyInfo.cs
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\obj\Debug\net8.0\backend.minimalapi.Core.Prod.Models.csproj.CoreCompileInputs.cache
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\obj\Debug\net8.0\backend.minimalapi.Core.Prod.Models.sourcelink.json
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\bin\Debug\net8.0\backend.minimalapi.Core.Prod.Models.deps.json
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\bin\Debug\net8.0\backend.minimalapi.Core.Prod.Models.dll
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\bin\Debug\net8.0\backend.minimalapi.Core.Prod.Models.pdb
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\obj\Debug\net8.0\backend.minimalapi.Core.Prod.Models.dll
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\obj\Debug\net8.0\refint\backend.minimalapi.Core.Prod.Models.dll
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\obj\Debug\net8.0\backend.minimalapi.Core.Prod.Models.pdb
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\obj\Debug\net8.0\ref\backend.minimalapi.Core.Prod.Models.dll
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Prod.Models\obj\Debug\net8.0\backend.minimalapi.Core.Prod.Models.csproj.AssemblyReference.cache

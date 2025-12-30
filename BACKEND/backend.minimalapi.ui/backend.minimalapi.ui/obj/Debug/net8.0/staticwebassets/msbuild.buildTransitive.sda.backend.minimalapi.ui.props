@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\sda.backend.minimalapi.ui.props" />
+</Project>

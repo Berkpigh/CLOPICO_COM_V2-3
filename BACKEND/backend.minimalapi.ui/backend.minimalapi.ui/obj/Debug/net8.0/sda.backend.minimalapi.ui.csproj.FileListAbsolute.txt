@@ -1,0 +1,548 @@
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\appsettings.Development.json
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\appsettings.json
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.exe
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.deps.json
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.runtimeconfig.json
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.pdb
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Azure.Core.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Azure.Identity.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Humanizer.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Build.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.OpenApi.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Mono.TextTemplating.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Newtonsoft.Json.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Common.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Configuration.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Frameworks.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.LibraryModel.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Packaging.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.ProjectModel.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Protocol.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Versioning.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.CodeDom.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Composition.Convention.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Composition.Hosting.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Composition.Runtime.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Composition.TypedParts.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Drawing.Common.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Formats.Asn1.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Memory.Data.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Runtime.Caching.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Security.Permissions.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Windows.Extensions.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\af\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ar\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\az\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\bg\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\da\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\el\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fa\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\he\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\hr\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\hu\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\hy\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\id\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\is\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ku\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\lv\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\mt\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\nb\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\nl\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ro\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sk\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sl\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sr\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sv\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\uk\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\vi\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Models.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Services.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Games.Interfaces.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Games.Models.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Games.Services.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Models.pdb
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Services.pdb
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Games.Models.pdb
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Games.Services.pdb
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Games.Interfaces.pdb
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.csproj.AssemblyReference.cache
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.GeneratedMSBuildEditorConfig.editorconfig
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.AssemblyInfoInputs.cache
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.AssemblyInfo.cs
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.csproj.CoreCompileInputs.cache
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.MvcApplicationPartsAssemblyInfo.cs
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.MvcApplicationPartsAssemblyInfo.cache
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.sourcelink.json
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets.build.json
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets.development.json
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets\msbuild.sda.backend.minimalapi.ui.Microsoft.AspNetCore.StaticWebAssets.props
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets\msbuild.build.sda.backend.minimalapi.ui.props
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.sda.backend.minimalapi.ui.props
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.sda.backend.minimalapi.ui.props
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets.pack.json
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\scopedcss\bundle\sda.backend.minimalapi.ui.styles.css
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.back.228CA46F.Up2Date
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\refint\sda.backend.minimalapi.ui.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.pdb
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.genruntimeconfig.cache
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\ref\sda.backend.minimalapi.ui.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.csproj.AssemblyReference.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.GeneratedMSBuildEditorConfig.editorconfig
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.AssemblyInfoInputs.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.AssemblyInfo.cs
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.csproj.CoreCompileInputs.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.MvcApplicationPartsAssemblyInfo.cs
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.MvcApplicationPartsAssemblyInfo.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\refint\sda.backend.minimalapi.ui.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\appsettings.Development.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\appsettings.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.staticwebassets.endpoints.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.exe
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.deps.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.runtimeconfig.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.ui.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Azure.Core.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Azure.Identity.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Humanizer.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Build.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.OpenApi.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Mono.TextTemplating.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Newtonsoft.Json.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Common.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Configuration.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Frameworks.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.LibraryModel.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Packaging.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.ProjectModel.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Protocol.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\NuGet.Versioning.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.CodeDom.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Composition.Convention.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Composition.Hosting.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Composition.Runtime.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Composition.TypedParts.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Drawing.Common.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Memory.Data.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Runtime.Caching.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Security.Permissions.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\System.Windows.Extensions.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\af\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ar\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\az\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\bg\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\da\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\el\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fa\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\he\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\hr\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\hu\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\hy\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\id\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\is\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ku\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\lv\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\mt\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\nb\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\nl\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ro\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sk\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sl\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sr\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sv\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\uk\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\vi\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Models.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Services.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Models.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Services.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\scopedcss\bundle\sda.backend.minimalapi.ui.styles.css
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets.build.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets.development.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets\msbuild.sda.backend.minimalapi.ui.Microsoft.AspNetCore.StaticWebAssets.props
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets\msbuild.sda.backend.minimalapi.ui.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets\msbuild.build.sda.backend.minimalapi.ui.props
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.sda.backend.minimalapi.ui.props
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.sda.backend.minimalapi.ui.props
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets.pack.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.back.228CA46F.Up2Date
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\sda.backend.minimalapi.ui.genruntimeconfig.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\ref\sda.backend.minimalapi.ui.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.ui\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

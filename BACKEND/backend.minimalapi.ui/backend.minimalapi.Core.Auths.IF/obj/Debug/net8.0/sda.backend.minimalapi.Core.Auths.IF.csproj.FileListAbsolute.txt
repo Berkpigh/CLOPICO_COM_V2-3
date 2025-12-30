@@ -1,0 +1,31 @@
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.csproj.AssemblyReference.cache
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.GeneratedMSBuildEditorConfig.editorconfig
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.AssemblyInfoInputs.cache
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.AssemblyInfo.cs
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.csproj.CoreCompileInputs.cache
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.sourcelink.json
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.deps.json
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.pdb
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Models.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Models.pdb
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.back.F804C95A.Up2Date
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\refint\sda.backend.minimalapi.Core.Auths.IF.dll
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.pdb
+I:\__UDEMY\React 18 avec Web Api dotnet 8 - full\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\ref\sda.backend.minimalapi.Core.Auths.IF.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.deps.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Models.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\bin\Debug\net8.0\sda.backend.minimalapi.Core.Auths.Models.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.csproj.AssemblyReference.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.GeneratedMSBuildEditorConfig.editorconfig
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.AssemblyInfoInputs.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.AssemblyInfo.cs
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.csproj.CoreCompileInputs.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.back.F804C95A.Up2Date
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\refint\sda.backend.minimalapi.Core.Auths.IF.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\sda.backend.minimalapi.Core.Auths.IF.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\sda.backend.minimalapi.ui\sda.backend.minimalapi.Core.Auths.IF\obj\Debug\net8.0\ref\sda.backend.minimalapi.Core.Auths.IF.dll

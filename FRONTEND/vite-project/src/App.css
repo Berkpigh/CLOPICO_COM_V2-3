@@ -1,0 +1,135 @@
+/*html {
+  background-color: white;
+}*/
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* background-color: white; */
+}
+:root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+/*  background-color: #7CEC8E; */
+  background-color: white;
+/*  --bs-secondary-bg: #20c997 */
+  --bs-secondary-bg: #8fffbe;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.gfg3 {
+  position:absolute;
+  left: 0px;
+  height: 100vh;
+  top: 88px;
+}
+
+.my_left {
+  position: absolute;
+  top: 85px;
+  left: 0px;
+  width: 100vw;
+}
+
+.mon_login1 {
+  position:relative;
+  top: 70px;
+  left: 0px;
+}
+.mon_login2 {
+  display: flex;
+  justify-content: space-between;
+}
+.mon_login3 {
+  width: 100px;
+}
+.mon_login4 {
+  width: 200px;
+}
+.colblack {
+  color: black
+}
+.colred {
+  color: red
+}
+.colgreen {
+  color : '#00FF00'
+}
+.all{
+  text-align: left;
+}
+.alc{
+  text-align: center;
+}
+.alr{
+  text-align: right;
+}
+.divh10 {
+  height: 10px;
+}
+.divh20 {
+  height: 20px;
+}
+.disinline {
+  display: inline;
+}
+.bgcyel {
+/*  background-color: #f2761d; */
+  background-color: #f5a316}
+.bggreen {
+  /* background-color: #20c997; */
+  background-color: #19d160;
+}
+.bgdarkg {
+  background-color: #426349;
+}
+.bgcred {
+  background-color: #f51664}
+.bgcyel {
+  background-color: #f5a316}
+/*  background-color: #f2761d; */
+.bgerrmsg {
+  background-color: #ee16f5}
+.textbold {
+  font-style: 'bold'
+}
+.texthalfrem {
+  font-size: 0.8rem
+}
+/* */

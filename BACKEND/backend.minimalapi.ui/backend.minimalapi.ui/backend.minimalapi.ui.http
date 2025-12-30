@@ -1,0 +1,14 @@
+@backend.minimalapi.ui_HostAddress = https://localhost:7216
+
+GET {{backend.minimalapi.ui_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{backend.minimalapi.ui_HostAddress}}/weatherforecast
+
+###
+
+GET {{backend.minimalapi.ui_HostAddress}}/api/Game/
+
+###

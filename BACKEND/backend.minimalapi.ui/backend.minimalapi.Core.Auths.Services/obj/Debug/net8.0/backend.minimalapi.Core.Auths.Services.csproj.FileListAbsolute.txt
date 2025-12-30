@@ -1,0 +1,39 @@
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Services.deps.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Services.runtimeconfig.json
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Services.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Services.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.IF.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Models.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.IF.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Models.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.csproj.AssemblyReference.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.GeneratedMSBuildEditorConfig.editorconfig
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.AssemblyInfoInputs.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.AssemblyInfo.cs
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.csproj.CoreCompileInputs.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend..E46CAC33.Up2Date
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\refint\backend.minimalapi.Core.Auths.Services.dll
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.pdb
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.genruntimeconfig.cache
+G:\__UDEMY\TutorialSec4A18\projet final\backend\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\ref\backend.minimalapi.Core.Auths.Services.dll
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Services.deps.json
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Services.runtimeconfig.json
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Services.dll
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Services.pdb
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.IF.dll
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Models.dll
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.IF.pdb
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\bin\Debug\net8.0\backend.minimalapi.Core.Auths.Models.pdb
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.csproj.AssemblyReference.cache
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.AssemblyInfoInputs.cache
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.AssemblyInfo.cs
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.csproj.CoreCompileInputs.cache
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.sourcelink.json
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend..E46CAC33.Up2Date
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.dll
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\refint\backend.minimalapi.Core.Auths.Services.dll
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.pdb
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\backend.minimalapi.Core.Auths.Services.genruntimeconfig.cache
+D:\CLOPICO_COM_V2\_1_PROJET\_1B_Application\_1B02_MAIN\BACKEND\backend.minimalapi.ui\backend.minimalapi.Core.Auths.Services\obj\Debug\net8.0\ref\backend.minimalapi.Core.Auths.Services.dll

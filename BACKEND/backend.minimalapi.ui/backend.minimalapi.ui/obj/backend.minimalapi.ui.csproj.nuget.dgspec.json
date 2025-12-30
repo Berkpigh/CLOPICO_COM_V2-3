@@ -1,0 +1,884 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.ui\\backend.minimalapi.ui.csproj": {}
+  },
+  "projects": {
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.IF\\backend.minimalapi.Core.Auths.IF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.IF\\backend.minimalapi.Core.Auths.IF.csproj",
+        "projectName": "backend.minimalapi.Core.Auths.IF",
+        "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.IF\\backend.minimalapi.Core.Auths.IF.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.IF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Models\\backend.minimalapi.Core.Auths.Models.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Models\\backend.minimalapi.Core.Auths.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Models\\backend.minimalapi.Core.Auths.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Models\\backend.minimalapi.Core.Auths.Models.csproj",
+        "projectName": "backend.minimalapi.Core.Auths.Models",
+        "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Models\\backend.minimalapi.Core.Auths.Models.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Services\\backend.minimalapi.Core.Auths.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Services\\backend.minimalapi.Core.Auths.Services.csproj",
+        "projectName": "backend.minimalapi.Core.Auths.Services",
+        "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Services\\backend.minimalapi.Core.Auths.Services.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.IF\\backend.minimalapi.Core.Auths.IF.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.IF\\backend.minimalapi.Core.Auths.IF.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Models\\backend.minimalapi.Core.Auths.Models.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Models\\backend.minimalapi.Core.Auths.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "ServiceStack": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Cli.IF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Cli.IF.csproj",
+        "projectName": "backend.minimalapi.Core.Cli.IF",
+        "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Cli.IF.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.IF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Models\\backend.minimalapi.Core.Cli.Models.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Models\\backend.minimalapi.Core.Cli.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Models\\backend.minimalapi.Core.Cli.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Models\\backend.minimalapi.Core.Cli.Models.csproj",
+        "projectName": "backend.minimalapi.Core.Cli.Models",
+        "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Models\\backend.minimalapi.Core.Cli.Models.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Services\\backend.minimalapi.Core.Cli.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Services\\backend.minimalapi.Core.Cli.Services.csproj",
+        "projectName": "backend.minimalapi.Core.Cli.Services",
+        "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Services\\backend.minimalapi.Core.Cli.Services.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Cli.IF.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Cli.IF.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Models\\backend.minimalapi.Core.Cli.Models.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Models\\backend.minimalapi.Core.Cli.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.IF\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Prod.IF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.IF\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Prod.IF.csproj",
+        "projectName": "backend.minimalapi.Core.Prod.IF",
+        "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.IF\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Prod.IF.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.IF\\backend.minimalapi.Core.Cli.IF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Models\\backend.minimalapi.Core.Prod.Models.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Models\\backend.minimalapi.Core.Prod.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Models\\backend.minimalapi.Core.Prod.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Models\\backend.minimalapi.Core.Prod.Models.csproj",
+        "projectName": "backend.minimalapi.Core.Prod.Models",
+        "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Models\\backend.minimalapi.Core.Prod.Models.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Services\\backend.minimalapi.Core.Prod.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Services\\backend.minimalapi.Core.Prod.Services.csproj",
+        "projectName": "backend.minimalapi.Core.Prod.Services",
+        "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Services\\backend.minimalapi.Core.Prod.Services.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.IF\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Prod.IF.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.IF\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Prod.IF.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Models\\backend.minimalapi.Core.Prod.Models.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Models\\backend.minimalapi.Core.Prod.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.ui\\backend.minimalapi.ui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.ui\\backend.minimalapi.ui.csproj",
+        "projectName": "backend.minimalapi.ui",
+        "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.ui\\backend.minimalapi.ui.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.ui\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.IF\\backend.minimalapi.Core.Auths.IF.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.IF\\backend.minimalapi.Core.Auths.IF.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Models\\backend.minimalapi.Core.Auths.Models.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Models\\backend.minimalapi.Core.Auths.Models.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Services\\backend.minimalapi.Core.Auths.Services.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Auths.Services\\backend.minimalapi.Core.Auths.Services.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Cli.IF.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Cli.IF.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Models\\backend.minimalapi.Core.Cli.Models.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Models\\backend.minimalapi.Core.Cli.Models.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Services\\backend.minimalapi.Core.Cli.Services.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Cli.Services\\backend.minimalapi.Core.Cli.Services.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.IF\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Prod.IF.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.IF\\backend.minimalapi.Core.Cli.IF\\backend.minimalapi.Core.Prod.IF.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Models\\backend.minimalapi.Core.Prod.Models.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Models\\backend.minimalapi.Core.Prod.Models.csproj"
+              },
+              "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Services\\backend.minimalapi.Core.Prod.Services.csproj": {
+                "projectPath": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Services\\backend.minimalapi.Core.Prod.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

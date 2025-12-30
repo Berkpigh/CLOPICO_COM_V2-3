@@ -1,0 +1,6 @@
+export type NS_IN_MS = {nms: number}
+export type MS_IN_SEC = {mss: number}
+export type MS_IN_MIN = {msm: number}
+export type MS_IN_HOUR = {msh: number}
+export type MS_IN_DAY = {msd: number}
+export type MS_IN_WEEK = {msw: number}

@@ -1,0 +1,6 @@
+@backend.minimalapi.Core.Prod.IF_HostAddress = http://localhost:5225
+
+GET {{backend.minimalapi.Core.Prod.IF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

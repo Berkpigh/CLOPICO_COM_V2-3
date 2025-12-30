@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\sda.backend.minimalapi.ui.props" />
+</Project>

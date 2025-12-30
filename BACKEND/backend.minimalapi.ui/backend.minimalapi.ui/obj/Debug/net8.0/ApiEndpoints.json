@@ -1,0 +1,1025 @@
+[
+  {
+    "ContainingType": "backend.minimalapi.ui.ClientInfoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClientInfoEndpoints\u003Eb__0_0",
+    "RelativePath": "api/ClientInfo/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IList\u00601[[backend.minimalapi.Core.Cli.Models.Models.ClientInfo, backend.minimalapi.Core.Cli.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ClientInfo"
+    ],
+    "EndpointName": "GetAllClientInfos"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.ClientInfoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClientInfoEndpoints\u003Eb__0_1",
+    "RelativePath": "api/ClientInfo/{clientid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientid",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.minimalapi.Core.Cli.Models.Models.ClientInfo",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ClientInfo"
+    ],
+    "EndpointName": "GetClientInfoById"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.ClientInfoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClientInfoEndpoints\u003Eb__0_2",
+    "RelativePath": "api/ClientInfo/{clientid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientid",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "input",
+        "Type": "backend.minimalapi.Core.Cli.Models.Models.ClientInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "ClientInfo"
+    ],
+    "EndpointName": "UpdateClientInfo"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.ClientInfoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClientInfoEndpoints\u003Eb__0_3",
+    "RelativePath": "api/ClientInfo/{clientid}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "backend.minimalapi.Core.Cli.Models.Models.ClientInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ClientInfo"
+    ],
+    "EndpointName": "CreateClientInfo"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.ClientInfoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClientInfoEndpoints\u003Eb__0_4",
+    "RelativePath": "api/ClientInfo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ClientInfo"
+    ],
+    "EndpointName": "DeleteClientInfo"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DbouteilleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDbouteilleEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Dbouteille/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[backend.minimalapi.Core.Prod.Models.Dbouteille, backend.minimalapi.Core.Prod.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dbouteille"
+    ],
+    "EndpointName": "GetAllDbouteilles"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DbouteilleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDbouteilleEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Dbouteille/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "backend.minimalapi.Core.Prod.Models.Models.BouteilleProdOnly",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dbouteille"
+    ],
+    "EndpointName": "CreateDbouteille"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DbouteilleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDbouteilleEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Dbouteille/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[backend.minimalapi.Core.Prod.Models.DbouteilleImage, backend.minimalapi.Core.Prod.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dbouteille"
+    ],
+    "EndpointName": "GetDbouteilleById"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DbouteilleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDbouteilleEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Dbouteille/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "input",
+        "Type": "backend.minimalapi.Core.Prod.Models.Dbouteille",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "Dbouteille"
+    ],
+    "EndpointName": "UpdateDbouteille"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DbouteilleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDbouteilleEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Dbouteille/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dbouteille"
+    ],
+    "EndpointName": "DeleteDbouteille"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DclientEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDclientEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Dclient/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[backend.minimalapi.Core.Cli.Models.Dclient, backend.minimalapi.Core.Cli.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dclient"
+    ],
+    "EndpointName": "GetAllDclients"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DclientEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDclientEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Dclient/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "backend.minimalapi.Core.Cli.Models.Dclient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dclient"
+    ],
+    "EndpointName": "CreateDclient"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DclientEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDclientEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Dclient/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientid",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.minimalapi.Core.Cli.Models.Dclient",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dclient"
+    ],
+    "EndpointName": "GetDclientById"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DclientEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDclientEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Dclient/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "input",
+        "Type": "backend.minimalapi.Core.Cli.Models.Dclient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "Dclient"
+    ],
+    "EndpointName": "UpdateDclient"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DclientEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDclientEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Dclient/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dclient"
+    ],
+    "EndpointName": "DeleteDclient"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.Dcuv\u00E9eEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDcuv\u00E9eEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Dcuv\u00E9e/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[backend.minimalapi.Core.Prod.Models.Dcuv\u00E9e, backend.minimalapi.Core.Prod.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dcuv\u00E9e"
+    ],
+    "EndpointName": "GetAllDcuv\u00E9es"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.Dcuv\u00E9eEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDcuv\u00E9eEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Dcuv\u00E9e/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "backend.minimalapi.Core.Prod.Models.Models.CuveBoutProd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dcuv\u00E9e"
+    ],
+    "EndpointName": "CreateDcuv\u00E9e"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.Dcuv\u00E9eEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDcuv\u00E9eEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Dcuv\u00E9e/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dcuv\u00E9e"
+    ],
+    "EndpointName": "GetDcuv\u00E9eById"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.Dcuv\u00E9eEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDcuv\u00E9eEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Dcuv\u00E9e/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "input",
+        "Type": "backend.minimalapi.Core.Prod.Models.Dcuv\u00E9e",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "Dcuv\u00E9e"
+    ],
+    "EndpointName": "UpdateDcuv\u00E9e"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.Dcuv\u00E9eEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDcuv\u00E9eEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Dcuv\u00E9e/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dcuv\u00E9e"
+    ],
+    "EndpointName": "DeleteDcuv\u00E9e"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.Dcuv\u00E9eBDEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDcuv\u00E9eBDEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Dcuv\u00E9eBD/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[backend.minimalapi.Core.Prod.Models.Models.Cuv\u00E9eDBOnly, backend.minimalapi.Core.Prod.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dcuv\u00E9e"
+    ],
+    "EndpointName": "GetAllDcuv\u00E9esBD"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.Dcuv\u00E9eBDEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDcuv\u00E9eBDEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Dcuv\u00E9eBD/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "backend.minimalapi.Core.Prod.Models.Models.Cuv\u00E9eDBOnly",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dcuv\u00E9e"
+    ],
+    "EndpointName": "CreateDcuv\u00E9eBD"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.Dcuv\u00E9eBDEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDcuv\u00E9eBDEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Dcuv\u00E9eBD/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Cuv\u00E9eId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.minimalapi.Core.Prod.Models.Dcuv\u00E9e",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dcuv\u00E9e"
+    ],
+    "EndpointName": "GetDcuv\u00E9eBDById"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.Dcuv\u00E9eBDEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDcuv\u00E9eBDEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Dcuv\u00E9eBD/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Cuv\u00E9eId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "input",
+        "Type": "backend.minimalapi.Core.Prod.Models.Dcuv\u00E9e",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "Dcuv\u00E9e"
+    ],
+    "EndpointName": "UpdateDcuv\u00E9eBD"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.Dcuv\u00E9eBDEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDcuv\u00E9eBDEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Dcuv\u00E9eBD/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dcuv\u00E9e"
+    ],
+    "EndpointName": "DeleteDcuv\u00E9eBD"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DstockEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDstockEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Dstock/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "backend.minimalapi.Core.Prod.Models.Dstock[]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dstock"
+    ],
+    "EndpointName": "GetAllDstocks"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DstockEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDstockEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Dstock/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "backend.minimalapi.Core.Prod.Models.Dstock",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dstock"
+    ],
+    "EndpointName": "CreateDstock"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DstockEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDstockEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Dstock/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dstock"
+    ],
+    "EndpointName": "GetDstockById"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DstockEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDstockEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Dstock/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "input",
+        "Type": "backend.minimalapi.Core.Prod.Models.Dstock",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "Dstock"
+    ],
+    "EndpointName": "UpdateDstock"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DstockEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDstockEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Dstock/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dstock"
+    ],
+    "EndpointName": "DeleteDstock"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.LoginUserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLoginUserEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Login/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "backend.minimalapi.Core.Auths.Models.LoginUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "LoginUser"
+    ],
+    "EndpointName": "CreateLoginUser"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.LoginUserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLoginUserEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Login/Host/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "LoginUser"
+    ],
+    "EndpointName": "CreateLoginHostUser"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.NumerosPostauxEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapNumerosPostauxEndpoints\u003Eb__0_0",
+    "RelativePath": "api/NumerosPostaux/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[backend.minimalapi.Core.Cli.Models.Models.NumPosShort, backend.minimalapi.Core.Cli.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "NumerosPostaux"
+    ],
+    "EndpointName": "GetAllNumerosPostauxes"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.NumerosPostauxEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapNumerosPostauxEndpoints\u003Eb__0_3",
+    "RelativePath": "api/NumerosPostaux/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "backend.minimalapi.Core.Cli.Models.NumerosPostaux",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "NumerosPostaux"
+    ],
+    "EndpointName": "CreateNumerosPostaux"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.NumerosPostauxEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapNumerosPostauxEndpoints\u003Eb__0_1",
+    "RelativePath": "api/NumerosPostaux/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "NumerosPostaux"
+    ],
+    "EndpointName": "GetNumerosPostauxById"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.NumerosPostauxEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapNumerosPostauxEndpoints\u003Eb__0_2",
+    "RelativePath": "api/NumerosPostaux/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "input",
+        "Type": "backend.minimalapi.Core.Cli.Models.NumerosPostaux",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "NumerosPostaux"
+    ],
+    "EndpointName": "UpdateNumerosPostaux"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.NumerosPostauxEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapNumerosPostauxEndpoints\u003Eb__0_4",
+    "RelativePath": "api/NumerosPostaux/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "NumerosPostaux"
+    ],
+    "EndpointName": "DeleteNumerosPostaux"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.CreationUserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCreationUserEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Register/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "backend.minimalapi.Core.Auths.Models.CreationUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CreationUser"
+    ],
+    "EndpointName": "CreateCreationUser"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.CreationUserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCreationUserEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Register/Host/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CreationUser"
+    ],
+    "EndpointName": "CreateHostUser"
+  }
+]

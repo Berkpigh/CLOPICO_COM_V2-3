@@ -1,0 +1,1674 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "backend.minimalapi.ui",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/ClientInfo": {
+      "get": {
+        "tags": [
+          "ClientInfo"
+        ],
+        "operationId": "GetAllClientInfos",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClientInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ClientInfo/{clientid}": {
+      "get": {
+        "tags": [
+          "ClientInfo"
+        ],
+        "operationId": "GetClientInfoById",
+        "parameters": [
+          {
+            "name": "clientid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClientInfo"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ClientInfo"
+        ],
+        "operationId": "UpdateClientInfo",
+        "parameters": [
+          {
+            "name": "clientid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClientInfo"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ClientInfo"
+        ],
+        "operationId": "CreateClientInfo",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClientInfo"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ClientInfo/{id}": {
+      "delete": {
+        "tags": [
+          "ClientInfo"
+        ],
+        "operationId": "DeleteClientInfo",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Register": {
+      "post": {
+        "tags": [
+          "CreationUser"
+        ],
+        "operationId": "CreateCreationUser",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreationUser"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Register/Host": {
+      "post": {
+        "tags": [
+          "CreationUser"
+        ],
+        "operationId": "CreateHostUser",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Dbouteille": {
+      "get": {
+        "tags": [
+          "Dbouteille"
+        ],
+        "operationId": "GetAllDbouteilles",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Dbouteille"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Dbouteille"
+        ],
+        "operationId": "CreateDbouteille",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BouteilleProdOnly"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Dbouteille/{id}": {
+      "get": {
+        "tags": [
+          "Dbouteille"
+        ],
+        "operationId": "GetDbouteilleById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DbouteilleImage"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Dbouteille"
+        ],
+        "operationId": "UpdateDbouteille",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dbouteille"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Dbouteille"
+        ],
+        "operationId": "DeleteDbouteille",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Dclient": {
+      "get": {
+        "tags": [
+          "Dclient"
+        ],
+        "operationId": "GetAllDclients",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Dclient"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Dclient"
+        ],
+        "operationId": "CreateDclient",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dclient"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Dclient/{id}": {
+      "get": {
+        "tags": [
+          "Dclient"
+        ],
+        "operationId": "GetDclientById",
+        "parameters": [
+          {
+            "name": "clientid",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dclient"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Dclient"
+        ],
+        "operationId": "UpdateDclient",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dclient"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Dclient"
+        ],
+        "operationId": "DeleteDclient",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Dcuvée": {
+      "get": {
+        "tags": [
+          "Dcuvée"
+        ],
+        "operationId": "GetAllDcuvées",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Dcuvée"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Dcuvée"
+        ],
+        "operationId": "CreateDcuvée",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CuveBoutProd"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Dcuvée/{id}": {
+      "get": {
+        "tags": [
+          "Dcuvée"
+        ],
+        "operationId": "GetDcuvéeById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Dcuvée"
+        ],
+        "operationId": "UpdateDcuvée",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dcuvée"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Dcuvée"
+        ],
+        "operationId": "DeleteDcuvée",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DcuvéeBD": {
+      "get": {
+        "tags": [
+          "Dcuvée"
+        ],
+        "operationId": "GetAllDcuvéesBD",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CuvéeDBOnly"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Dcuvée"
+        ],
+        "operationId": "CreateDcuvéeBD",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CuvéeDBOnly"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DcuvéeBD/{id}": {
+      "get": {
+        "tags": [
+          "Dcuvée"
+        ],
+        "operationId": "GetDcuvéeBDById",
+        "parameters": [
+          {
+            "name": "CuvéeId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Dcuvée"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Dcuvée"
+        ],
+        "operationId": "UpdateDcuvéeBD",
+        "parameters": [
+          {
+            "name": "CuvéeId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dcuvée"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Dcuvée"
+        ],
+        "operationId": "DeleteDcuvéeBD",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Dstock": {
+      "get": {
+        "tags": [
+          "Dstock"
+        ],
+        "operationId": "GetAllDstocks",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Dstock"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Dstock"
+        ],
+        "operationId": "CreateDstock",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dstock"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Dstock/{id}": {
+      "get": {
+        "tags": [
+          "Dstock"
+        ],
+        "operationId": "GetDstockById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Dstock"
+        ],
+        "operationId": "UpdateDstock",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Dstock"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Dstock"
+        ],
+        "operationId": "DeleteDstock",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Login": {
+      "post": {
+        "tags": [
+          "LoginUser"
+        ],
+        "operationId": "CreateLoginUser",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginUser"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Login/Host": {
+      "post": {
+        "tags": [
+          "LoginUser"
+        ],
+        "operationId": "CreateLoginHostUser",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/NumerosPostaux": {
+      "get": {
+        "tags": [
+          "NumerosPostaux"
+        ],
+        "operationId": "GetAllNumerosPostauxes",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/NumPosShort"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "NumerosPostaux"
+        ],
+        "operationId": "CreateNumerosPostaux",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NumerosPostaux"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/NumerosPostaux/{id}": {
+      "get": {
+        "tags": [
+          "NumerosPostaux"
+        ],
+        "operationId": "GetNumerosPostauxById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "NumerosPostaux"
+        ],
+        "operationId": "UpdateNumerosPostaux",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NumerosPostaux"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "NumerosPostaux"
+        ],
+        "operationId": "DeleteNumerosPostaux",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Bout": {
+        "required": [
+          "dproduits"
+        ],
+        "type": "object",
+        "properties": {
+          "bouteilleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "capacité": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dproduits": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Prd"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BouteilleProdOnly": {
+        "type": "object",
+        "properties": {
+          "bouteilleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cuvéeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "libelléBouteille": {
+            "type": "string",
+            "nullable": true
+          },
+          "capacité": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dproduits": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dproduit"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClientInfo": {
+        "type": "object",
+        "properties": {
+          "clientId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "ownerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "nom": {
+            "type": "string",
+            "nullable": true
+          },
+          "prénom": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateContact": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "f_ContactId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "f_DTypeContact": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "f_Cnom": {
+            "type": "string",
+            "nullable": true
+          },
+          "f_Cprénom": {
+            "type": "string",
+            "nullable": true
+          },
+          "f_AdresseMail": {
+            "type": "string",
+            "nullable": true
+          },
+          "f_TélPortable": {
+            "type": "string",
+            "nullable": true
+          },
+          "f_TélFixe": {
+            "type": "string",
+            "nullable": true
+          },
+          "f_Adresse1": {
+            "type": "string",
+            "nullable": true
+          },
+          "f_Adresse2": {
+            "type": "string",
+            "nullable": true
+          },
+          "f_Ville": {
+            "type": "string",
+            "nullable": true
+          },
+          "f_Pays": {
+            "type": "string",
+            "nullable": true
+          },
+          "f_NuméroPostal": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "l_ContactId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "l_DTypeContact": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "l_Cnom": {
+            "type": "string",
+            "nullable": true
+          },
+          "l_Cprénom": {
+            "type": "string",
+            "nullable": true
+          },
+          "l_AdresseMail": {
+            "type": "string",
+            "nullable": true
+          },
+          "l_TélPortable": {
+            "type": "string",
+            "nullable": true
+          },
+          "l_TélFixe": {
+            "type": "string",
+            "nullable": true
+          },
+          "l_Adresse1": {
+            "type": "string",
+            "nullable": true
+          },
+          "l_Adresse2": {
+            "type": "string",
+            "nullable": true
+          },
+          "l_Ville": {
+            "type": "string",
+            "nullable": true
+          },
+          "l_Pays": {
+            "type": "string",
+            "nullable": true
+          },
+          "l_NuméroPostal": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreationUser": {
+        "type": "object",
+        "properties": {
+          "roleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CuveBoutProd": {
+        "type": "object",
+        "properties": {
+          "cuvéeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "annéeCuvée": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "typeCuvée": {
+            "type": "string",
+            "nullable": true
+          },
+          "libelléCuvée": {
+            "type": "string",
+            "nullable": true
+          },
+          "dbouteilles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Bout"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CuvéeDBOnly": {
+        "type": "object",
+        "properties": {
+          "cuvéeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "annéeCuvée": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "typeCuvée": {
+            "type": "string",
+            "nullable": true
+          },
+          "libelléCuvée": {
+            "type": "string",
+            "nullable": true
+          },
+          "descCuvées": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DescCuvée"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dbouteille": {
+        "type": "object",
+        "properties": {
+          "bouteilleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cuvéeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "libelléBouteille": {
+            "type": "string",
+            "nullable": true
+          },
+          "capacité": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dbouteilleImages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DbouteilleImage"
+            },
+            "nullable": true
+          },
+          "dproduits": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dproduit"
+            },
+            "nullable": true
+          },
+          "dstocks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dstock"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DbouteilleImage": {
+        "type": "object",
+        "properties": {
+          "bouteilleImageId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bouteilleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "imageDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dclient": {
+        "type": "object",
+        "properties": {
+          "clientId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "ownerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "nom": {
+            "type": "string",
+            "nullable": true
+          },
+          "prénom": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateContact": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dcuvée": {
+        "type": "object",
+        "properties": {
+          "cuvéeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "annéeCuvée": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "typeCuvée": {
+            "type": "string",
+            "nullable": true
+          },
+          "libelléCuvée": {
+            "type": "string",
+            "nullable": true
+          },
+          "ddescriptionCuvées": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DdescriptionCuvée"
+            },
+            "nullable": true
+          },
+          "dbouteilles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dbouteille"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DdescriptionCuvée": {
+        "type": "object",
+        "properties": {
+          "descriptionCuvéeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cuvéeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "langue": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "descriptionLongue": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DescCuvée": {
+        "type": "object",
+        "properties": {
+          "descriptionCuvéeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cuvéeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "langue": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "descriptionLongue": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomLangue": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dproduit": {
+        "type": "object",
+        "properties": {
+          "produitId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "bouteilleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "libelléProduit": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombreBouteilles": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "prixTTC": {
+            "type": "number",
+            "format": "double"
+          },
+          "fraisPoste": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantitéMinimum": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "datePeremption": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dproduitActions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DproduitAction"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DproduitAction": {
+        "type": "object",
+        "properties": {
+          "produitActionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "produitId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "actionDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "actionPourcent": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "débutAction": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "finAction": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dstock": {
+        "type": "object",
+        "properties": {
+          "stockId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bouteilleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantitéEntrée": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dateEntrée": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "valeurEntrée": {
+            "type": "number",
+            "format": "double"
+          },
+          "valeurVendue": {
+            "type": "number",
+            "format": "double"
+          },
+          "valeurSolde": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantitéRéserve": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantitéSolde": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginUser": {
+        "type": "object",
+        "properties": {
+          "login": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NumPosShort": {
+        "type": "object",
+        "properties": {
+          "numéroPostal": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "localité": {
+            "type": "string",
+            "nullable": true
+          },
+          "canton": {
+            "type": "string",
+            "nullable": true
+          },
+          "statutLivraison": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "NumerosPostaux": {
+        "type": "object",
+        "properties": {
+          "numerosPostauxId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numéroPostal": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "localité": {
+            "type": "string",
+            "nullable": true
+          },
+          "numéroAdditionnel": {
+            "type": "string",
+            "nullable": true
+          },
+          "commune": {
+            "type": "string",
+            "nullable": true
+          },
+          "canton": {
+            "type": "string",
+            "nullable": true
+          },
+          "langue": {
+            "type": "string",
+            "nullable": true
+          },
+          "numéroAFS": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "statutLivraison": {
+            "$ref": "#/components/schemas/StatutL"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Prd": {
+        "type": "object",
+        "properties": {
+          "produitId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "nombreBouteilles": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantitéMinimum": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "StatutL": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Please enter a valid token",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
