@@ -17,13 +17,7 @@ export interface oneBouteilleImage {
         imageDesc: string,
         imageUrl: string
 }
-export interface ajoutBouteilleImage {
-        show: boolean,
-        bouteilleImageId: number,
-        bouteilleId: number,   
-        imageDesc: string,
-        imageUrl: string
-}
+
 export interface oneProduit {
         produitId: number,
         bouteilleId: number,

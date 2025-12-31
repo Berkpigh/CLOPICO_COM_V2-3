@@ -4,10 +4,10 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { BASE_URL } from "../../../../core/infrastructures/https/http-handler";
 import { RootState } from "../../../../redux/store/storeRedux";
-import { IOneBotWithImag, bouteille, LBouteilleImages, ajoutBouteilleImage, Mes_Error, MesE } from "../../models";
+import { IOneBotWithImag, bouteille, LBouteilleImages, oneBouteilleImage, Mes_Error, MesE } from "../../models";
 import { FetchGetOneBotImages, FetchPutOneBotImages } from "../../services/apis";
 import { BouteilleImageList } from "../BouteilleImageList";
-import { AjoutModal } from "../AjoutModal"
+import { AddModal } from "../AddModal"
 
 export const UpdateBouteilleImage = () => {
     const etatimagloaded = useSelector((state: RootState) => state.etatimage.loaded);
@@ -115,6 +115,7 @@ export const UpdateBouteilleImage = () => {
         imageDesc: "",
         imageUrl: ""
     }])
+/* 
     const [ajoutImageState, setAjoutImageState] = useState<ajoutBouteilleImage>({
         bouteilleImageId: 0,
         bouteilleId: 0,   
@@ -122,8 +123,10 @@ export const UpdateBouteilleImage = () => {
         imageUrl: "",
         show: false
     })
-
-    const [inputState, setInputState] = useState<boolean>(false)
+ */
+    const [showAddState, setShowAddState] = useState<boolean>(false)
+    const [showUpdateState, setShowUpdateState] = useState<boolean>(false)
+    const [showDeleteState, setShowDeleteState] = useState<boolean>(false)
     const [error1State, setError1State] = useState<boolean>(false)
     const [errorMsgState, setErrorMsgState] = useState<MesE>([
     { MessageE: "" }, { MessageE: "" }, { MessageE: "" } 
@@ -231,27 +234,36 @@ export const UpdateBouteilleImage = () => {
 /*
 // *--- *--- *--- Traitement de l'événementiel
 */  
-    const updateBouteille = (id: number) => {
+    const updateBouteilleImage = (id: number) => {
 
     }
-    const deleteBouteille = (id: number) => {
+    const updateOk = (image: oneBouteilleImage) => {
+
+    }
+    const updateCancel = () => {
+
+    }
+    const deleteBouteilleImage = (id: number) => {
         
     }
-    const recordImages = () => {
-        if(inputState) { setInputState(false)} else {setInputState(true)}
+    const deleteOk = (image: oneBouteilleImage) => {
+
     }
-    const showAjout = () => { 
-        let newImage: ajoutBouteilleImage = {
-            bouteilleImageId: 0,
-            bouteilleId: 0,   
-            imageDesc: "",
-            imageUrl: "",
-            show: true
-        }
-        setAjoutImageState(newImage)
+    const deleteCancel = () => {
+
     }
-    const cancel = () => {
-        if(inputState) { setInputState(false)} else {setInputState(true)}
+    const recordBouteilleImages = () => {
+    }
+    const addBouteilleImage = () => { 
+        setShowAddState(true)
+    }
+    const addOk = (image: oneBouteilleImage) => {
+        setShowAddState(false)
+    }
+    const addCancel = () => {
+        setShowAddState(false)
+    }
+    const cancelBouteilleImages = () => {
     }
     return (
     <Container>
@@ -276,27 +288,27 @@ export const UpdateBouteilleImage = () => {
                 <Col sm={5}>
                     <CardGroup>
                         <BouteilleImageList items={bouteilleImagesState} 
-                            updateBout={updateBouteille}
-                            deleteBout={deleteBouteille}>
+                            updateBout={updateBouteilleImage}
+                            deleteBout={deleteBouteilleImage}>
                         </BouteilleImageList>
                     </CardGroup>
                 </Col>
             </Row>
             <Row>
                 <Col sm={1}>
-                    <Button className="all" variant="success" type="button" onClick={recordImages}>OK</Button>
+                    <Button className="all" variant="success" type="button" onClick={recordBouteilleImages}>OK</Button>
                 </Col>
                 <Col sm={1}></Col>
                 <Col sm={1}>
-                    <Button className="alc" variant="success" type="button" onClick={showAjout}>Ajout</Button>
+                    <Button className="alc" variant="success" type="button" onClick={addBouteilleImage}>Ajout</Button>
                 </Col>
                 <Col sm={1}></Col>
                 <Col sm={1}>
-                    <Button className="alr" variant="success" type="button" onClick={cancel}>Abandon</Button>
+                    <Button className="alr" variant="success" type="button" onClick={cancelBouteilleImages}>Abandon</Button>
                 </Col>
             </Row>
         </Form>
-        <AjoutModal item={ajoutImageState} />
+        <AddModal show={showAddState} addOkState={addOk} addCancelState={addCancel}/>
     </Container>
     )
 }
