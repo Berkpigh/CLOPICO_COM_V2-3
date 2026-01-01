@@ -58,7 +58,7 @@ export const AddModal = (props:AjoutModalProps) => {
     }
     useEffect(() => {
         initState()
-    }, [])
+    }, [newImageState.bouteilleImageId])
     
     return (
 //    <Modal show={props.item.show} onHide={handleClose}>

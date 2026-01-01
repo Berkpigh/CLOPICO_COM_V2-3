@@ -8,6 +8,7 @@ import { IOneBotWithImag, bouteille, LBouteilleImages, oneBouteilleImage, Mes_Er
 import { FetchGetOneBotImages, FetchPutOneBotImages } from "../../services/apis";
 import { BouteilleImageList } from "../BouteilleImageList";
 import { AddModal } from "../AddModal"
+import { DeleteModal } from "../DeleteModal"
 
 export const UpdateBouteilleImage = () => {
     const etatimagloaded = useSelector((state: RootState) => state.etatimage.loaded);
@@ -115,15 +116,12 @@ export const UpdateBouteilleImage = () => {
         imageDesc: "",
         imageUrl: ""
     }])
-/* 
-    const [ajoutImageState, setAjoutImageState] = useState<ajoutBouteilleImage>({
-        bouteilleImageId: 0,
-        bouteilleId: 0,   
-        imageDesc: "",
-        imageUrl: "",
-        show: false
+    const [imageToDeleteState, setImageToDeleteState] = useState<oneBouteilleImage>({
+      bouteilleImageId  : 0,
+      bouteilleId  : 0,
+      imageDesc  : "",
+      imageUrl  : ""
     })
- */
     const [showAddState, setShowAddState] = useState<boolean>(false)
     const [showUpdateState, setShowUpdateState] = useState<boolean>(false)
     const [showDeleteState, setShowDeleteState] = useState<boolean>(false)
@@ -244,13 +242,24 @@ export const UpdateBouteilleImage = () => {
 
     }
     const deleteBouteilleImage = (id: number) => {
-        
+        const ImageToDelete = bouteilleImagesState.find((item) => item.bouteilleImageId == id)
+        if(ImageToDelete){
+            setImageToDeleteState(ImageToDelete)
+            setShowDeleteState(true)
+        }
     }
-    const deleteOk = (image: oneBouteilleImage) => {
-
+    const deleteOk = (id: number) => {
+        const ImageToDeleteIndex = bouteilleImagesState.findIndex((item) => item.bouteilleImageId == id)
+        if(ImageToDeleteIndex >= 0)
+        {
+            let newState: LBouteilleImages = bouteilleImagesState
+            let filterNewState: LBouteilleImages = newState.filter(status => status.bouteilleImageId !== id)
+            setBouteilleImagesState(filterNewState)
+        }
+        setShowDeleteState(false)
     }
     const deleteCancel = () => {
-
+        setShowDeleteState(false)
     }
     const recordBouteilleImages = () => {
     }
@@ -310,6 +319,7 @@ export const UpdateBouteilleImage = () => {
             </Row>
         </Form>
         <AddModal show={showAddState} addOkState={addOk} addCancelState={addCancel}/>
+        <DeleteModal show={showDeleteState} image={imageToDeleteState} deleteOkState={deleteOk} deleteCancelState={deleteCancel}/>
     </Container>
     )
 }

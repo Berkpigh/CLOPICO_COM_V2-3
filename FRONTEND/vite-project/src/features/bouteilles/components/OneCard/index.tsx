@@ -12,12 +12,12 @@ type OneCardProps = {
 export const OneCard = (props: OneCardProps) => {
     const clickUpdate = () => {
         if (typeof props.updateBout !== "undefined") { // type guard     
-        props.updateBout(props.bouteilleImageId)
+            props.updateBout(props.bouteilleImageId)
         }
     }
     const clickDelete = () => {
         if (typeof props.deleteBout !== "undefined") { // type guard     
-        props.deleteBout(props.bouteilleImageId)
+            props.deleteBout(props.bouteilleImageId)
         }
     }
     return (
