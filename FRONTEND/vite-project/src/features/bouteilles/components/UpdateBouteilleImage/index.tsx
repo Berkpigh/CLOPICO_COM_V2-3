@@ -9,6 +9,7 @@ import { FetchGetOneBotImages, FetchPutOneBotImages } from "../../services/apis"
 import { BouteilleImageList } from "../BouteilleImageList";
 import { AddModal } from "../AddModal"
 import { DeleteModal } from "../DeleteModal"
+import { UpdateModal } from "../UpdateModal"
 
 export const UpdateBouteilleImage = () => {
     const etatimagloaded = useSelector((state: RootState) => state.etatimage.loaded);
@@ -117,6 +118,12 @@ export const UpdateBouteilleImage = () => {
         imageUrl: ""
     }])
     const [imageToDeleteState, setImageToDeleteState] = useState<oneBouteilleImage>({
+      bouteilleImageId  : 0,
+      bouteilleId  : 0,
+      imageDesc  : "",
+      imageUrl  : ""
+    })
+    const [imageToUpdateState, setImageToUpdateState] = useState<oneBouteilleImage>({
       bouteilleImageId  : 0,
       bouteilleId  : 0,
       imageDesc  : "",
@@ -233,13 +240,19 @@ export const UpdateBouteilleImage = () => {
 // *--- *--- *--- Traitement de l'événementiel
 */  
     const updateBouteilleImage = (id: number) => {
-
+        const ImageToUpdate = bouteilleImagesState.find((item) => item.bouteilleImageId == id)
+        if(ImageToUpdate){
+            setImageToUpdateState(ImageToUpdate)
+            setShowUpdateState(true)
+        }
     }
     const updateOk = (image: oneBouteilleImage) => {
 
+        setShowUpdateState(false)
+
     }
     const updateCancel = () => {
-
+            setShowUpdateState(false)
     }
     const deleteBouteilleImage = (id: number) => {
         const ImageToDelete = bouteilleImagesState.find((item) => item.bouteilleImageId == id)
@@ -267,6 +280,7 @@ export const UpdateBouteilleImage = () => {
         setShowAddState(true)
     }
     const addOk = (image: oneBouteilleImage) => {
+        image.bouteilleId = bouteilleState.bouteilleId
         setBouteilleImagesState([...bouteilleImagesState, image])
         setShowAddState(false)
     }
@@ -320,6 +334,7 @@ export const UpdateBouteilleImage = () => {
         </Form>
         <AddModal show={showAddState} addOkState={addOk} addCancelState={addCancel}/>
         <DeleteModal show={showDeleteState} image={imageToDeleteState} deleteOkState={deleteOk} deleteCancelState={deleteCancel}/>
+        <UpdateModal show={showUpdateState} image={imageToUpdateState} updateOkState={updateOk} updateCancelState={updateCancel}/>
     </Container>
     )
 }

@@ -1,5 +1,4 @@
-import { Modal, Button, Row, Col, Form, Card } from  "react-bootstrap"
-import { useState, useEffect } from "react"
+import { Button, Card, Col, Form, Modal, Row } from "react-bootstrap"
 import { oneBouteilleImage } from "../../models"
 
 type DeleteModalProps = {
@@ -17,7 +16,6 @@ export const DeleteModal = (props:DeleteModalProps) => {
     }
     
     return (
-//    <Modal show={props.item.show} onHide={handleClose}>
       <>
     <Modal
       size="lg"

@@ -1,73 +1,69 @@
-import { Modal, Button, Row, Col, Form, Card } from  "react-bootstrap"
-import { useState, useEffect } from "react"
+import { useEffect, useState } from "react"
+import { Button, Card, Col, Form, Modal, Row } from "react-bootstrap"
 import { oneBouteilleImage } from "../../models"
 
-type AddModalProps = {
+type UpdateModalProps = {
   show: boolean
-  addOkState: (image: oneBouteilleImage) => void
-  addCancelState: () => void
+  image: oneBouteilleImage
+  updateOkState: (image: oneBouteilleImage) => void
+  updateCancelState: () => void
 }
-export const AddModal = (props:AddModalProps) => {
+export const UpdateModal = (props:UpdateModalProps) => {
+    let initialState : oneBouteilleImage = props.image
     const handleCancel = () => {
-      props.addCancelState()
+      props.updateCancelState()
     } 
     const handleOk = () => {
-      props.addOkState(newImageState)
+      props.updateOkState(updatedImageState)
     }
-    const [newImageState, setNewImageState] =  useState<oneBouteilleImage>({
-      bouteilleImageId  : 0,
-      bouteilleId  : 0,
-      imageDesc  : "",
-      imageUrl  : ""
+    const [updatedImageState, setUpdatedImageState] =  useState<oneBouteilleImage>({
+      bouteilleImageId: 0,
+      bouteilleId: 0,
+      imageDesc: "",
+      imageUrl: ""
     })
-    const initState = () => {
-      const newState: oneBouteilleImage = {
-        bouteilleImageId  : 0,
-        bouteilleId  : 0,
-        imageDesc  : "",
-        imageUrl  : ""
-      }
-      setNewImageState(newState)
-    }
+    const [hasChangedState, setHasChangedState] = useState<boolean>(false)
     const updImageId = (e: React.ChangeEvent<HTMLInputElement>) => {
       const newState: oneBouteilleImage = {
         bouteilleImageId  : Number(e.target.value),
-        bouteilleId  : newImageState.bouteilleId,
-        imageDesc  : newImageState.imageDesc,
-        imageUrl  : newImageState.imageUrl
+        bouteilleId  : updatedImageState.bouteilleId,
+        imageDesc  : updatedImageState.imageDesc,
+        imageUrl  : updatedImageState.imageUrl
       }
-      setNewImageState(newState)
+      setUpdatedImageState(newState)
+      setHasChangedState(true)
     }
     const updImageDesc = (e: React.ChangeEvent<HTMLInputElement>) => {
       const newState: oneBouteilleImage = {
-        bouteilleImageId  : newImageState.bouteilleImageId,
-        bouteilleId  : newImageState.bouteilleId,
+        bouteilleImageId  : updatedImageState.bouteilleImageId,
+        bouteilleId  : updatedImageState.bouteilleId,
         imageDesc  : e.target.value,
-        imageUrl  : newImageState.imageUrl
+        imageUrl  : updatedImageState.imageUrl
       }
-      setNewImageState(newState)
+      setUpdatedImageState(newState)
+      setHasChangedState(true)
     }
     const updImageUrl = (e: React.ChangeEvent<HTMLInputElement>) => {
       const newState: oneBouteilleImage = {
-        bouteilleImageId  : newImageState.bouteilleImageId,
-        bouteilleId  : newImageState.bouteilleId,
-        imageDesc  : newImageState.imageDesc,
+        bouteilleImageId  : updatedImageState.bouteilleImageId,
+        bouteilleId  : updatedImageState.bouteilleId,
+        imageDesc  : updatedImageState.imageDesc,
         imageUrl  : e.target.value
       }
-      setNewImageState(newState)
+      setUpdatedImageState(newState)
+      setHasChangedState(true)
     }
-    useEffect(() => {
-        initState()
-    }, [newImageState.bouteilleImageId])
-    
+    const initialize = () => {setUpdatedImageState(initialState)}
+     
     return (
       <>
     <Modal
       size="lg"
       show={props.show}
-      onHide={handleCancel}>
+      onHide={handleCancel}
+      onShow={initialize}>
         <Modal.Header closeButton>
-          <Modal.Title>Ajout d'une image de bouteille</Modal.Title>
+          <Modal.Title>Mise à jour de cette image de bouteille</Modal.Title>
         </Modal.Header>
           <Form>
             <Row>
@@ -75,7 +71,7 @@ export const AddModal = (props:AddModalProps) => {
                 <Col sm={1} lg={1}></Col>
                 <Form.Label  column sm={4}>N° d'image *</Form.Label>
                 <Col sm={6} lg={2}>
-                  <Form.Control type="number" value={newImageState.bouteilleImageId} required
+                  <Form.Control type="number" value={updatedImageState.bouteilleImageId} required
                     onChange={updImageId}/>
                 </Col>
               </Form.Group>
@@ -85,7 +81,7 @@ export const AddModal = (props:AddModalProps) => {
                 <Col sm={1} lg={1}></Col>
                 <Form.Label  column sm={4}>URL *</Form.Label>
                 <Col sm={6} lg={6}>
-                  <Form.Control type="text" value={newImageState.imageUrl} required
+                  <Form.Control type="text" value={updatedImageState.imageUrl} required
                     onChange={updImageUrl}/>
                 </Col>
               </Form.Group>
@@ -95,7 +91,7 @@ export const AddModal = (props:AddModalProps) => {
                 <Col sm={1} lg={1}></Col>
                 <Form.Label  column sm={4}>Description *</Form.Label>
                 <Col sm={6} lg={6}>
-                  <Form.Control type="text" value={newImageState.imageDesc} required
+                  <Form.Control type="text" value={updatedImageState.imageDesc} required
                     onChange={updImageDesc}/>
                 </Col>
               </Form.Group>
@@ -108,12 +104,13 @@ export const AddModal = (props:AddModalProps) => {
               </Col>
               <Col sm={1} lg={1}></Col>
               <Col sm={1} lg={1}>
-                <Button variant="primary" onClick={handleOk}>OK</Button>
+                <Button variant="primary" onClick={handleOk}
+                  disabled={!hasChangedState}>OK</Button>
               </Col>
             </Row>
             <Row>
               <Col sm={5}>
-                <Card><Card.Img src={newImageState.imageUrl} variant="top"></Card.Img></Card>
+                <Card><Card.Img src={updatedImageState.imageUrl} variant="top"></Card.Img></Card>
               </Col>
             </Row>
       </Modal>
