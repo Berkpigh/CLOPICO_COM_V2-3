@@ -1,4 +1,5 @@
 import { Modal, Button, Row, Col, Form, Card } from  "react-bootstrap"
+import { useState, useEffect } from "react"
 import { oneBouteilleImage } from "../../models"
 
 type AjoutModalProps = {
@@ -11,20 +12,61 @@ export const AddModal = (props:AjoutModalProps) => {
       props.addCancelState()
     } 
     const handleOk = () => {
-      props.addOkState(newImage)
+      props.addOkState(newImageState)
     }
-    let newImage: oneBouteilleImage = {
+    const [newImageState, setNewImageState] =  useState<oneBouteilleImage>({
       bouteilleImageId  : 0,
       bouteilleId  : 0,
       imageDesc  : "",
       imageUrl  : ""
-    } 
+    })
+    const initState = () => {
+      const newState: oneBouteilleImage = {
+        bouteilleImageId  : 0,
+        bouteilleId  : 0,
+        imageDesc  : "",
+        imageUrl  : ""
+      }
+      setNewImageState(newState)
+    }
+    const updImageId = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const newState: oneBouteilleImage = {
+        bouteilleImageId  : Number(e.target.value),
+        bouteilleId  : newImageState.bouteilleId,
+        imageDesc  : newImageState.imageDesc,
+        imageUrl  : newImageState.imageUrl
+      }
+      setNewImageState(newState)
+    }
+    const updImageDesc = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const newState: oneBouteilleImage = {
+        bouteilleImageId  : newImageState.bouteilleImageId,
+        bouteilleId  : newImageState.bouteilleId,
+        imageDesc  : e.target.value,
+        imageUrl  : newImageState.imageUrl
+      }
+      setNewImageState(newState)
+    }
+    const updImageUrl = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const newState: oneBouteilleImage = {
+        bouteilleImageId  : newImageState.bouteilleImageId,
+        bouteilleId  : newImageState.bouteilleId,
+        imageDesc  : newImageState.imageDesc,
+        imageUrl  : e.target.value
+      }
+      setNewImageState(newState)
+    }
+    useEffect(() => {
+        initState()
+    }, [])
+    
     return (
 //    <Modal show={props.item.show} onHide={handleClose}>
       <>
     <Modal
       size="lg"
-      show={props.show}>
+      show={props.show}
+      onHide={handleCancel}>
         <Modal.Header closeButton>
           <Modal.Title>Ajout d'une image de bouteille</Modal.Title>
         </Modal.Header>
@@ -33,8 +75,9 @@ export const AddModal = (props:AjoutModalProps) => {
                <Form.Group as={Row} className="mb-1 text-end" controlId="formHorizontalEmail">
                 <Col sm={1} lg={1}></Col>
                 <Form.Label  column sm={4}>N° d'image *</Form.Label>
-                <Col sm={6} lg={1}>
-                  <Form.Control type="number" value={newImage.bouteilleImageId} required/>
+                <Col sm={6} lg={2}>
+                  <Form.Control type="number" value={newImageState.bouteilleImageId} required
+                    onChange={updImageId}/>
                 </Col>
               </Form.Group>
             </Row>
@@ -43,7 +86,8 @@ export const AddModal = (props:AjoutModalProps) => {
                 <Col sm={1} lg={1}></Col>
                 <Form.Label  column sm={4}>URL *</Form.Label>
                 <Col sm={6} lg={6}>
-                  <Form.Control type="text" value={newImage.imageUrl} required/>
+                  <Form.Control type="text" value={newImageState.imageUrl} required
+                    onChange={updImageUrl}/>
                 </Col>
               </Form.Group>
             </Row>
@@ -52,14 +96,16 @@ export const AddModal = (props:AjoutModalProps) => {
                 <Col sm={1} lg={1}></Col>
                 <Form.Label  column sm={4}>Description *</Form.Label>
                 <Col sm={6} lg={6}>
-                  <Form.Control type="text" value={newImage.imageDesc} required/>
+                  <Form.Control type="text" value={newImageState.imageDesc} required
+                    onChange={updImageDesc}/>
                 </Col>
               </Form.Group>
             </Row>
           </Form>
              <Row>
+              <Col sm={1} lg={1}></Col>
               <Col sm={1} lg={1}>
-                <Button variant="secondary" onClick={handleCancel}>Abandon</Button>
+                <Button variant="primary" onClick={handleCancel}>Abandon</Button>
               </Col>
               <Col sm={1} lg={1}></Col>
               <Col sm={1} lg={1}>
@@ -67,9 +113,9 @@ export const AddModal = (props:AjoutModalProps) => {
               </Col>
             </Row>
             <Row>
-              <Card>
-                <Card.Img src={newImage.imageUrl} variant="top"></Card.Img>
-              </Card>
+              <Col sm={5}>
+                <Card><Card.Img src={newImageState.imageUrl} variant="top"></Card.Img></Card>
+              </Col>
             </Row>
       </Modal>
       </>

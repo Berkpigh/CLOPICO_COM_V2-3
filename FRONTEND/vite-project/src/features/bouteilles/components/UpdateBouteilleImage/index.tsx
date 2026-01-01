@@ -258,6 +258,7 @@ export const UpdateBouteilleImage = () => {
         setShowAddState(true)
     }
     const addOk = (image: oneBouteilleImage) => {
+        setBouteilleImagesState([...bouteilleImagesState, image])
         setShowAddState(false)
     }
     const addCancel = () => {
