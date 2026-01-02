@@ -20,7 +20,7 @@ export const AddModal = (props:AddModalProps) => {
       imageDesc  : "",
       imageUrl  : ""
     })
-    const initState = () => {
+    const initialize = () => {
       const newState: oneBouteilleImage = {
         bouteilleImageId  : 0,
         bouteilleId  : 0,
@@ -56,15 +56,13 @@ export const AddModal = (props:AddModalProps) => {
       }
       setNewImageState(newState)
     }
-    useEffect(() => {
-        initState()
-    }, [newImageState.bouteilleImageId])
     
     return (
       <>
     <Modal
       size="lg"
       show={props.show}
+      onShow={initialize}
       onHide={handleCancel}>
         <Modal.Header closeButton>
           <Modal.Title>Ajout d'une image de bouteille</Modal.Title>

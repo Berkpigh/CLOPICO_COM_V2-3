@@ -237,8 +237,27 @@ export const UpdateBouteilleImage = () => {
     console.log("bouteilleState: ", bouteilleState)
     console.log("bouteilleImagesState: ", bouteilleImagesState)
 /*
-// *--- *--- *--- Traitement de l'événementiel
-*/  
+// *--- *--- *--- Traitement de l'événementiel et fonctions appelées par les modales
+*/
+// *--- *--- *---*--- *--- Recherche du plus gran id de bouteille
+    const findMaxId = (imageList: LBouteilleImages) => {
+        let maxid: number = imageList[0].bouteilleImageId
+        for(let i:number = 1; i < imageList.length; i++) {
+            if(imageList[i].bouteilleImageId > maxid) {maxid=imageList[i].bouteilleImageId}
+        }
+        return maxid
+    }
+// *--- *--- *---*--- *--- Insertion de l'image, soit à l'id désirée aoit à la fin
+    const insertImage = (imageList: LBouteilleImages, image: oneBouteilleImage) => {
+        const ImageToInsertIndex = imageList.findIndex((item) => item.bouteilleImageId == image.bouteilleImageId)
+        if(ImageToInsertIndex >= 0){
+            image.bouteilleImageId = findMaxId(imageList)
+        }
+        const newList: LBouteilleImages = [...imageList, image]
+        newList.sort((a,b) => a.bouteilleImageId - b.bouteilleImageId)
+        setBouteilleImagesState(newList)
+    }
+// *--- *--- *---*--- *--- Click sur MAJ d'une image
     const updateBouteilleImage = (id: number) => {
         const ImageToUpdate = bouteilleImagesState.find((item) => item.bouteilleImageId == id)
         if(ImageToUpdate){
@@ -246,14 +265,18 @@ export const UpdateBouteilleImage = () => {
             setShowUpdateState(true)
         }
     }
-    const updateOk = (image: oneBouteilleImage) => {
-
+// *--- *--- *---*--- *--- OK en retour de la modale de MAJ
+    const updateOk = (image: oneBouteilleImage, oldid: number) => {
+        let newState: LBouteilleImages = bouteilleImagesState
+        let filterNewState: LBouteilleImages = newState.filter(status => status.bouteilleImageId !== oldid)
+        insertImage(filterNewState, image)
         setShowUpdateState(false)
-
     }
+// *--- *--- *---*--- *--- Abandon en retour de la modale de MAJ
     const updateCancel = () => {
             setShowUpdateState(false)
     }
+// *--- *--- *---*--- *--- Click sur Suppression d'une image
     const deleteBouteilleImage = (id: number) => {
         const ImageToDelete = bouteilleImagesState.find((item) => item.bouteilleImageId == id)
         if(ImageToDelete){
@@ -261,6 +284,7 @@ export const UpdateBouteilleImage = () => {
             setShowDeleteState(true)
         }
     }
+// *--- *--- *---*--- *--- OK en retour de la modale de Suppression
     const deleteOk = (id: number) => {
         const ImageToDeleteIndex = bouteilleImagesState.findIndex((item) => item.bouteilleImageId == id)
         if(ImageToDeleteIndex >= 0)
@@ -271,22 +295,29 @@ export const UpdateBouteilleImage = () => {
         }
         setShowDeleteState(false)
     }
+// *--- *--- *---*--- *--- Abandon en retour de la modale de Suppression
     const deleteCancel = () => {
         setShowDeleteState(false)
     }
+
     const recordBouteilleImages = () => {
     }
+
+// *--- *--- *---*--- *--- Click sur ajout d'une image
     const addBouteilleImage = () => { 
         setShowAddState(true)
     }
+// *--- *--- *---*--- *--- OK en retour de la modale d'ajout
     const addOk = (image: oneBouteilleImage) => {
         image.bouteilleId = bouteilleState.bouteilleId
         setBouteilleImagesState([...bouteilleImagesState, image])
         setShowAddState(false)
     }
+// *--- *--- *---*--- *--- Abandon en retour de la modale d'ajout
     const addCancel = () => {
         setShowAddState(false)
     }
+    
     const cancelBouteilleImages = () => {
     }
     return (

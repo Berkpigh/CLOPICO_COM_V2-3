@@ -5,7 +5,7 @@ import { oneBouteilleImage } from "../../models"
 type UpdateModalProps = {
   show: boolean
   image: oneBouteilleImage
-  updateOkState: (image: oneBouteilleImage) => void
+  updateOkState: (image: oneBouteilleImage, oldid: number) => void
   updateCancelState: () => void
 }
 export const UpdateModal = (props:UpdateModalProps) => {
@@ -14,7 +14,7 @@ export const UpdateModal = (props:UpdateModalProps) => {
       props.updateCancelState()
     } 
     const handleOk = () => {
-      props.updateOkState(updatedImageState)
+      props.updateOkState(updatedImageState, props.image.bouteilleImageId)
     }
     const [updatedImageState, setUpdatedImageState] =  useState<oneBouteilleImage>({
       bouteilleImageId: 0,
