@@ -245,12 +245,12 @@ export const UpdateBouteilleImage = () => {
         for(let i:number = 1; i < imageList.length; i++) {
             if(imageList[i].bouteilleImageId > maxid) {maxid=imageList[i].bouteilleImageId}
         }
-        return maxid
+        return maxid + 1
     }
 // *--- *--- *---*--- *--- Insertion de l'image, soit à l'id désirée aoit à la fin
     const insertImage = (imageList: LBouteilleImages, image: oneBouteilleImage) => {
         const ImageToInsertIndex = imageList.findIndex((item) => item.bouteilleImageId == image.bouteilleImageId)
-        if(ImageToInsertIndex >= 0){
+        if(ImageToInsertIndex >= 0 || image.bouteilleImageId == 0){
             image.bouteilleImageId = findMaxId(imageList)
         }
         const newList: LBouteilleImages = [...imageList, image]
@@ -309,8 +309,8 @@ export const UpdateBouteilleImage = () => {
     }
 // *--- *--- *---*--- *--- OK en retour de la modale d'ajout
     const addOk = (image: oneBouteilleImage) => {
-        image.bouteilleId = bouteilleState.bouteilleId
-        setBouteilleImagesState([...bouteilleImagesState, image])
+        let newState: LBouteilleImages = bouteilleImagesState
+        insertImage(newState, image)
         setShowAddState(false)
     }
 // *--- *--- *---*--- *--- Abandon en retour de la modale d'ajout
