@@ -117,6 +117,12 @@ export const UpdateBouteilleImage = () => {
         imageDesc: "",
         imageUrl: ""
     }])
+    const [dividedIdState, setDividedIdState] = useState<LBouteilleImages>([{
+        bouteilleImageId: 0,
+        bouteilleId: 0,   
+        imageDesc: "",
+        imageUrl: ""
+    }])
     const [imageToDeleteState, setImageToDeleteState] = useState<oneBouteilleImage>({
       bouteilleImageId  : 0,
       bouteilleId  : 0,
@@ -221,10 +227,30 @@ export const UpdateBouteilleImage = () => {
 /*
 // *--- *--- *--- Obtention des données du store redux
 */
+    const divideBouteilleImageId = () => {
+        let truncid: number = 0
+        let newList: LBouteilleImages = []
+        for(let i: number = 0; i < etatImages.length; i++){
+            truncid = Math.trunc(etatImages[i].bouteilleImageId / 10000)
+            newList = addItemToList(newList, i, truncid)
+        }
+        return newList
+    }
+    const addItemToList = (newList: LBouteilleImages,i: number, truncid: number) => {
+        const newItem: oneBouteilleImage = {
+            bouteilleImageId: truncid,
+            bouteilleId: etatImages[i].bouteilleId,
+            imageDesc: etatImages[i].imageDesc,
+            imageUrl: etatImages[i].imageUrl
+        }
+        const nl: LBouteilleImages = [...newList,newItem]
+        return nl
+    }
     const setEtats = () => {
         if(etatimagloaded){
             setBouteilleState(etatBouteilleImage)
-            setBouteilleImagesState(etatImages)
+            const newList = divideBouteilleImageId()
+            setBouteilleImagesState(newList)   
         } else {
             initMessages()
             addMessage(0, errmsgs[0])

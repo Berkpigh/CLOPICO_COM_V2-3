@@ -137,6 +137,31 @@ namespace backend.minimalapi.Core.Prod.Services
             }
             return query;
         }
+        public List<DbouteilleImage> GetAllImages(int id)
+        {
+            List<DbouteilleImage> oldimages = _dbContext.DbouteilleImages.Where(b => b.BouteilleId == id).ToList();
+            return oldimages;
+        }
+        public bool PutOneBouteilleImages(List<DbouteilleImage> images)
+        {
+        // ---* --- * Suppression des images existantes
+            if (images.Count < 1) { return false; };
+            int boutid = images[0].BouteilleId;
+            List<DbouteilleImage> oldimages = GetAllImages(boutid);
+            foreach (DbouteilleImage img in oldimages)
+            {
+                _dbContext.DbouteilleImages.Remove(img);
+            }
+            // ---* --- * Insertion des nouvelle images
+            foreach (DbouteilleImage img in images)
+            {
+                _dbContext.DbouteilleImages.Add(img);
+                _dbContext.SaveChanges();
+            }
+
+            return true;
+        }
+
         #endregion
     }
 }

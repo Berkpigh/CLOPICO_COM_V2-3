@@ -25,9 +25,11 @@ public static class DbouteilleEndpoints
         .WithName("GetDbouteilleById")
         .WithOpenApi();
 
-        group.MapPut("/{id}", (int id, Dbouteille input) =>
+        group.MapPut("/", (List<DbouteilleImage> model, IGetAllBouteilleService serviceC) =>
         {
-            return TypedResults.NoContent();
+            bool ok = false;
+            ok = serviceC.PutOneBouteilleImages(model);
+            return ok;
         })
         .WithName("UpdateDbouteille")
         .WithOpenApi();
@@ -49,3 +51,10 @@ public static class DbouteilleEndpoints
         .WithOpenApi();
     }
 }
+
+//group.MapPut("/{id}", (int id, Dbouteille input) =>
+//{
+//    return TypedResults.NoContent();
+//})
+//.WithName("UpdateDbouteille")
+//.WithOpenApi();

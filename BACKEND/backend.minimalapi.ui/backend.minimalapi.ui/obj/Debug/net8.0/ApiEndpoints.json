@@ -156,6 +156,34 @@
   },
   {
     "ContainingType": "backend.minimalapi.ui.DbouteilleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDbouteilleEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Dbouteille/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Collections.Generic.List\u00601[[backend.minimalapi.Core.Prod.Models.DbouteilleImage, backend.minimalapi.Core.Prod.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Dbouteille"
+    ],
+    "EndpointName": "UpdateDbouteille"
+  },
+  {
+    "ContainingType": "backend.minimalapi.ui.DbouteilleEndpoints\u002B\u003C\u003Ec",
     "Method": "\u003CMapDbouteilleEndpoints\u003Eb__0_3",
     "RelativePath": "api/Dbouteille/",
     "HttpMethod": "POST",
@@ -209,37 +237,6 @@
       "Dbouteille"
     ],
     "EndpointName": "GetDbouteilleById"
-  },
-  {
-    "ContainingType": "backend.minimalapi.ui.DbouteilleEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapDbouteilleEndpoints\u003Eb__0_2",
-    "RelativePath": "api/Dbouteille/{id}",
-    "HttpMethod": "PUT",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "input",
-        "Type": "backend.minimalapi.Core.Prod.Models.Dbouteille",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
-      }
-    ],
-    "Tags": [
-      "Dbouteille"
-    ],
-    "EndpointName": "UpdateDbouteille"
   },
   {
     "ContainingType": "backend.minimalapi.ui.DbouteilleEndpoints\u002B\u003C\u003Ec",

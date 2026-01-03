@@ -14,5 +14,6 @@ namespace backend.minimalapi.Core.Prod.IF
         List<Dbouteille> GetAllBouteilles();
         bool PostOneBoutProd(BouteilleProdOnly bouteilleProd);
         List<DbouteilleImage> GetOneBouteilleImages(int BouteilleId);
+        bool PutOneBouteilleImages(List<DbouteilleImage> images);
     }
 }
