@@ -156,8 +156,8 @@ namespace backend.minimalapi.Core.Prod.Services
             foreach (DbouteilleImage img in images)
             {
                 _dbContext.DbouteilleImages.Add(img);
-                _dbContext.SaveChanges();
             }
+            _dbContext.SaveChanges();
 
             return true;
         }

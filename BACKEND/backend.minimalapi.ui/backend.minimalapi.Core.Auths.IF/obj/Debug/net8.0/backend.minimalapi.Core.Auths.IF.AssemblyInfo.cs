@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend.minimalapi.Core.Auths.IF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e1b17c3fd6aec17cf9414875ef0fc3a97d13fe3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97fe26a5de52f62f40ee2b946b184b09e30b9e34")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend.minimalapi.Core.Auths.IF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend.minimalapi.Core.Auths.IF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
