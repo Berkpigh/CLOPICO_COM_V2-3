@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{92D76425-EECA-4394-964D-A0E20F2BF6B8}|backend.minimalapi.Core.Prod.Services\\backend.minimalapi.Core.Prod.Services.csproj|solutionrelative:backend.minimalapi.core.prod.services\\sqlservergetallbouteilleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{92D76425-EECA-4394-964D-A0E20F2BF6B8}|backend.minimalapi.Core.Prod.Services\\backend.minimalapi.Core.Prod.Services.csproj|d:\\clopico_com_v2\\_1_projet\\_1b_application\\_1b02_main\\backend\\backend.minimalapi.ui\\backend.minimalapi.core.prod.services\\produitdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D76425-EECA-4394-964D-A0E20F2BF6B8}|backend.minimalapi.Core.Prod.Services\\backend.minimalapi.Core.Prod.Services.csproj|solutionrelative:backend.minimalapi.core.prod.services\\produitdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE8879B9-176E-4D17-8C5C-188798BBD3AE}|backend.minimalapi.ui\\backend.minimalapi.ui.csproj|d:\\clopico_com_v2\\_1_projet\\_1b_application\\_1b02_main\\backend\\backend.minimalapi.ui\\backend.minimalapi.ui\\dbouteilleendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE8879B9-176E-4D17-8C5C-188798BBD3AE}|backend.minimalapi.ui\\backend.minimalapi.ui.csproj|solutionrelative:backend.minimalapi.ui\\dbouteilleendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,26 +42,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProduitDbContext.cs",
+              "DocumentMoniker": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Services\\ProduitDbContext.cs",
+              "RelativeDocumentMoniker": "backend.minimalapi.Core.Prod.Services\\ProduitDbContext.cs",
+              "ToolTip": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Services\\ProduitDbContext.cs",
+              "RelativeToolTip": "backend.minimalapi.Core.Prod.Services\\ProduitDbContext.cs",
+              "ViewState": "AgIAADIAAACAZWZmZmY1wEcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T13:27:27.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SqlServerGetAllBouteilleService.cs",
               "DocumentMoniker": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Services\\SqlServerGetAllBouteilleService.cs",
               "RelativeDocumentMoniker": "backend.minimalapi.Core.Prod.Services\\SqlServerGetAllBouteilleService.cs",
               "ToolTip": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.Core.Prod.Services\\SqlServerGetAllBouteilleService.cs",
               "RelativeToolTip": "backend.minimalapi.Core.Prod.Services\\SqlServerGetAllBouteilleService.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAIA2wKcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAIA1wJ0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-03T15:55:06.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DbouteilleEndpoints.cs",
               "DocumentMoniker": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.ui\\DbouteilleEndpoints.cs",
               "RelativeDocumentMoniker": "backend.minimalapi.ui\\DbouteilleEndpoints.cs",
               "ToolTip": "D:\\CLOPICO_COM_V2\\_1_PROJET\\_1B_Application\\_1B02_MAIN\\BACKEND\\backend.minimalapi.ui\\backend.minimalapi.ui\\DbouteilleEndpoints.cs",
               "RelativeToolTip": "backend.minimalapi.ui\\DbouteilleEndpoints.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAjwB4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAjwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-03T15:53:19.002Z",
               "EditorCaption": ""

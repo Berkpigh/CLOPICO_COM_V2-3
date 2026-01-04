@@ -144,19 +144,27 @@ namespace backend.minimalapi.Core.Prod.Services
         }
         public bool PutOneBouteilleImages(List<DbouteilleImage> images)
         {
-        // ---* --- * Suppression des images existantes
+        // ---* --- * Obtention de la bouteille
             if (images.Count < 1) { return false; };
             int boutid = images[0].BouteilleId;
+            Dbouteille bot = GetOneBouteille(boutid);
+            if (bot.BouteilleId != boutid) { return false; }
+
+            // ---*---*Suppression des images existantes
             List<DbouteilleImage> oldimages = GetAllImages(boutid);
             foreach (DbouteilleImage img in oldimages)
             {
                 _dbContext.DbouteilleImages.Remove(img);
             }
-            // ---* --- * Insertion des nouvelle images
+
+            // ---* --- * Remplacement des images de la bouteille
             foreach (DbouteilleImage img in images)
             {
                 _dbContext.DbouteilleImages.Add(img);
             }
+            List<DbouteilleImage> bl = _dbContext.DbouteilleImages.Where(b => b.BouteilleId > boutid).ToList();
+            bot.DbouteilleImages = images;
+            _dbContext.Dbouteilles.Update(bot);
             _dbContext.SaveChanges();
 
             return true;
@@ -165,3 +173,4 @@ namespace backend.minimalapi.Core.Prod.Services
         #endregion
     }
 }
+

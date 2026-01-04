@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend.minimalapi.Core.Prod.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97fe26a5de52f62f40ee2b946b184b09e30b9e34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc6036c3b15921636bfc4d0355d15f6bf00caf30")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend.minimalapi.Core.Prod.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend.minimalapi.Core.Prod.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
