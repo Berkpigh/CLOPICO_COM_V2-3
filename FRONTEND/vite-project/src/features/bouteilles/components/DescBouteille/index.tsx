@@ -11,7 +11,7 @@ import { storestockinitial, storestock } from "../../../../redux/slices/stocktou
 import { storeimageinitial, storeimage } from "../../../../redux/slices/imagetoupdateSlice";
 
 import { BASE_URL } from "../../../../core/infrastructures/https/http-handler";
-import { lBouteilles, oneBouteille, resultFetch, MesE, Mes_Error } from "../../models";
+import { lBouteilles, oneBouteille, resultGetListeBouteille, MesE, Mes_Error } from "../../models";
 import { FetchGetListeBouteille } from "../../services/apis";
 
 export const DescBouteille = () => {
@@ -23,7 +23,7 @@ export const DescBouteille = () => {
 
     const [error1State, setError1State] = useState<boolean>(false)
     const [errorMsgState, setErrorMsgState] = useState<MesE>([
-    { MessageE: "" }, { MessageE: "" }, { MessageE: "" } 
+      { MessageE: "" }, { MessageE: "" }, { MessageE: "" } 
     ])
 //    const [lOneCuvOnlyState, setLOneCuvOnlyState] = useState<LOneCuvOnly>([])
     const [listBouteilleState, setListBouteilleState] = useState<lBouteilles>(
@@ -132,15 +132,15 @@ export const DescBouteille = () => {
   ]
 // *** - *** - *** - *** - *** -  Fetch G E T
 // --- * --- * --- * Obtention de la liste des cuvées
-  type CallbackGetLCuvDBFunction = (result: resultFetch) => void
+  type CallbackGetLCuvDBFunction = (result: resultGetListeBouteille) => void
   const getListeBouteille = async (callback: CallbackGetLCuvDBFunction) => {
       await FetchGetListeBouteille(ciurl)
       .then((res) => {callback(res)})
   }
-  function handleGetLBotCallback(result: resultFetch) {
+  function handleGetLBotCallback(result: resultGetListeBouteille) {
     setLoadedState(true)
     initMessages()
-    if(result) {
+    if(result.ok) {
       setListBouteilleState(result.lBout)
      } else { addMessage(0, errmsgs[0]) }
   }
