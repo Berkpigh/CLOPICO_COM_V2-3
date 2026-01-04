@@ -98,14 +98,14 @@ export const FetchGetOneBotImages = async (url: string) => {
 /*
 // *** === *** === *** ===  Put MAJ liste images de bouteille
 */
-export const FetchPutOneBotImages = async (imag: IOneBotWithImag, url: string) => {
+export const FetchPutOneBotImages = async (images: LBouteilleImages, url: string) => {
   const token: string = getUserTokenFromLocalDb()
   try {
     const response = await fetch(url, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
-        body: JSON.stringify(imag),
+        body: JSON.stringify(images),
         'Authorization': `Bearer ${token}`
       }
     })
@@ -114,5 +114,5 @@ export const FetchPutOneBotImages = async (imag: IOneBotWithImag, url: string) =
   catch(error){
     console.error(error)
   }
-  return result
+  return false
 }

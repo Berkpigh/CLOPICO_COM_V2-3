@@ -4,20 +4,20 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { BASE_URL } from "../../../../core/infrastructures/https/http-handler";
 import { RootState } from "../../../../redux/store/storeRedux";
-import { IOneBotWithImag, bouteille, LBouteilleImages, oneBouteilleImage, Mes_Error, MesE } from "../../models";
-import { FetchGetOneBotImages, FetchPutOneBotImages } from "../../services/apis";
+import { bouteille, LBouteilleImages, Mes_Error, MesE, oneBouteilleImage } from "../../models";
+import { FetchPutOneBotImages } from "../../services/apis";
+import { AddModal } from "../AddModal";
 import { BouteilleImageList } from "../BouteilleImageList";
-import { AddModal } from "../AddModal"
-import { DeleteModal } from "../DeleteModal"
-import { UpdateModal } from "../UpdateModal"
+import { DeleteModal } from "../DeleteModal";
+import { UpdateModal } from "../UpdateModal";
 
 export const UpdateBouteilleImage = () => {
     const etatimagloaded = useSelector((state: RootState) => state.etatimage.loaded);
     const etatimagvalue = useSelector((state: RootState) => state.etatimage.value);
     const etatBouteilleImage: bouteille = etatimagvalue
     const etatImages: LBouteilleImages = etatimagvalue.dbouteilleImages
-    console.log("etatimagvalue: ", etatimagvalue)
-    console.log("etatimagvalue.dbouteilleImages : ", etatimagvalue.dbouteilleImages)
+//    console.log("etatimagvalue: ", etatimagvalue)
+//    console.log("etatimagvalue.dbouteilleImages : ", etatimagvalue.dbouteilleImages)
 
     const navigate = useNavigate()
 
@@ -117,12 +117,6 @@ export const UpdateBouteilleImage = () => {
         imageDesc: "",
         imageUrl: ""
     }])
-    const [dividedIdState, setDividedIdState] = useState<LBouteilleImages>([{
-        bouteilleImageId: 0,
-        bouteilleId: 0,   
-        imageDesc: "",
-        imageUrl: ""
-    }])
     const [imageToDeleteState, setImageToDeleteState] = useState<oneBouteilleImage>({
       bouteilleImageId  : 0,
       bouteilleId  : 0,
@@ -140,9 +134,9 @@ export const UpdateBouteilleImage = () => {
     const [showDeleteState, setShowDeleteState] = useState<boolean>(false)
     const [error1State, setError1State] = useState<boolean>(false)
     const [errorMsgState, setErrorMsgState] = useState<MesE>([
-    { MessageE: "" }, { MessageE: "" }, { MessageE: "" } 
+        { MessageE: "" }, { MessageE: "" }
     ])
-
+    const [recordOkState, setRecordOkState] = useState<boolean>(false)
 /*
 // *** - *** - *** - *** - *** -  Fetch P U T
 */
@@ -159,41 +153,30 @@ export const UpdateBouteilleImage = () => {
 // *--- *--- *--- Gestion des messages d'erreur
 */
     const createNewErrorMsgState = (ind: number, newmese: Mes_Error) => {
-            if(ind < 3){
-                const newMesEState = errorMsgState.map((state, index) => {
-                if(index == ind) {
-                    return newmese
-                } else {
-                    return state
-                }
-                })
-                setErrorMsgState(newMesEState)
+        if(ind < 2){
+            const newMesEState = errorMsgState.map((state, index) => {
+            if(index == ind) {
+                return newmese
+            } else {
+                return state
             }
+            })
+            setErrorMsgState(newMesEState)
+        }
     }
     const addMessage = (ind:number, msg: string) => {
-    const newmese : Mes_Error = {
-        MessageE: msg
-    }
-    createNewErrorMsgState(ind, newmese)
+        const newmese : Mes_Error = {
+            MessageE: msg
+        }
+        createNewErrorMsgState(ind, newmese)
         switch (ind) {
             case 0:
-            setError1State(true)
-            break
-        /*       case 1:
-            setError2State(true)
-            break
-            case 2:
-            setError3State(true)
-            break
-        */    
+                setError1State(true)
+                break
         }
     }
     const initMessages = () => {
         setError1State(false)               
-        /*     
-        setError2State(false)               
-        setError3State(false)
-        */    
         let ind: number = 0
         errorMsgState.forEach( (msg) => {
             msg.MessageE = ""
@@ -202,28 +185,9 @@ export const UpdateBouteilleImage = () => {
         })               
     }
     let errmsgs: string[] = [
-        "Problème à l'obtention de la bouteille et de ses produits",
-        "Informations correctement mises à jour",
-        "Problème lors de la mise à jour des images"
+        "Problème lors de la mise à jour des images de la bouteille",
+        "Informations correctement mises à jour"
     ]
-  type CallbackPutFunction = (result: boolean) => void
-    const PutOneBotImages = async (imag: IOneBotWithImag, callback: CallbackPutFunction) => {
-    await FetchPutOneBotImages(imag, ciurl)
-      .then((res) => {callback(res)})
-  }
-  function handlePutCallback(result: boolean) {
-    initMessages()
-    setError1State(false)
-    let mes: Mes_Error = { MessageE: "" }
-    if(result) {
-        mes.MessageE = errmsgs[1]
-        createNewErrorMsgState(0, mes)
-    } else {
-        mes.MessageE = errmsgs[2]
-        createNewErrorMsgState(0, mes)
-        setError1State(true)
-    }
-  }
 /*
 // *--- *--- *--- Obtention des données du store redux
 */
@@ -260,8 +224,8 @@ export const UpdateBouteilleImage = () => {
     useEffect(() => {
         setEtats()
     }, [])
-    console.log("bouteilleState: ", bouteilleState)
-    console.log("bouteilleImagesState: ", bouteilleImagesState)
+//    console.log("bouteilleState: ", bouteilleState)
+//    console.log("bouteilleImagesState: ", bouteilleImagesState)
 /*
 // *--- *--- *--- Traitement de l'événementiel et fonctions appelées par les modales
 */
@@ -297,6 +261,7 @@ export const UpdateBouteilleImage = () => {
         let filterNewState: LBouteilleImages = newState.filter(status => status.bouteilleImageId !== oldid)
         insertImage(filterNewState, image)
         setShowUpdateState(false)
+        setRecordOkState(true)
     }
 // *--- *--- *---*--- *--- Abandon en retour de la modale de MAJ
     const updateCancel = () => {
@@ -320,15 +285,12 @@ export const UpdateBouteilleImage = () => {
             setBouteilleImagesState(filterNewState)
         }
         setShowDeleteState(false)
+        setRecordOkState(true)
     }
 // *--- *--- *---*--- *--- Abandon en retour de la modale de Suppression
     const deleteCancel = () => {
         setShowDeleteState(false)
     }
-
-    const recordBouteilleImages = () => {
-    }
-
 // *--- *--- *---*--- *--- Click sur ajout d'une image
     const addBouteilleImage = () => { 
         setShowAddState(true)
@@ -338,13 +300,46 @@ export const UpdateBouteilleImage = () => {
         let newState: LBouteilleImages = bouteilleImagesState
         insertImage(newState, image)
         setShowAddState(false)
+        setRecordOkState(true)
     }
 // *--- *--- *---*--- *--- Abandon en retour de la modale d'ajout
     const addCancel = () => {
         setShowAddState(false)
     }
-    
+// *--- *--- *---*--- *--- ENREGISTREMENT
+    const increaseImageId = () => {
+        let bigimgid: number = 0
+        let bigbotid: number = bouteilleImagesState[0].bouteilleId * 10000
+        let newList: LBouteilleImages = []
+        for(let i: number = 0; i < bouteilleImagesState.length; i++){
+            bigimgid = bouteilleImagesState[i].bouteilleImageId + bigbotid
+            newList = addItemToFinalList(newList, i, bigimgid)
+        }
+        return newList
+    }
+    const addItemToFinalList = (newList: LBouteilleImages,i: number, bigbotid: number) => {
+        const newItem: oneBouteilleImage = {
+            bouteilleImageId: bigbotid,
+            bouteilleId: etatImages[i].bouteilleId,
+            imageDesc: etatImages[i].imageDesc,
+            imageUrl: etatImages[i].imageUrl
+        }
+        const nl: LBouteilleImages = [...newList,newItem]
+        return nl
+    }
+    const recordBouteilleImages = () => {
+        const newList = increaseImageId()
+        setBouteilleImagesState(newList)
+        if(!FetchPutOneBotImages(bouteilleImagesState,ciurl)){
+            addMessage(0, errmsgs[0])
+        } else {
+            addMessage(1, errmsgs[1])
+            navigate("/descbouteille")
+        }
+    }
+// *--- *--- *---*--- *--- ABANDON
     const cancelBouteilleImages = () => {
+        navigate("/descbouteille")
     }
     return (
     <Container>
@@ -377,15 +372,19 @@ export const UpdateBouteilleImage = () => {
             </Row>
             <Row>
                 <Col sm={1}>
-                    <Button className="all" variant="success" type="button" onClick={recordBouteilleImages}>OK</Button>
+                    <Button className="all" variant="success" type="button" 
+                        onClick={recordBouteilleImages}
+                        disabled={!recordOkState}>Enregistrer</Button>
                 </Col>
                 <Col sm={1}></Col>
                 <Col sm={1}>
-                    <Button className="alc" variant="success" type="button" onClick={addBouteilleImage}>Ajout</Button>
+                    <Button className="alc" variant="success" type="button"
+                        onClick={addBouteilleImage}>Ajout</Button>
                 </Col>
                 <Col sm={1}></Col>
                 <Col sm={1}>
-                    <Button className="alr" variant="success" type="button" onClick={cancelBouteilleImages}>Abandon</Button>
+                    <Button className="alr" variant="success" type="button"
+                        onClick={cancelBouteilleImages}>Abandon</Button>
                 </Col>
             </Row>
         </Form>
