@@ -5,29 +5,38 @@ import { useAuthenticationContext } from "../../../features/authentication/store
 
 import Jumbotron from "/LogoCLcarré.jpg";
 
-import { Nav } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { RootState } from "../../../redux/store/storeRedux";
 /**
  * Menu principal de l'application
  */
 export const MainMenu = () => {
   const authContext = useAuthenticationContext();
-  console.log('user.status AVANT: ', authContext.user.status)
-  console.log('role.role AVANT: ', authContext.role.role)
+//  console.log('user.status AVANT: ', authContext.user.status)
+//  console.log('role.role AVANT: ', authContext.role.role)
   const etatpanier = useSelector((state: RootState) => state.etatpanier.etatp);
-  console.log('etapanier :', etatpanier)
-  console.log('user.status APRES: ', authContext.user.status)
-  console.log('role.role APRES:', authContext.role.role)
+//  console.log('etapanier :', etatpanier)
+//  console.log('user.status APRES: ', authContext.user.status)
+//  console.log('role.role APRES:', authContext.role.role)
+
+    const closeDropdown = () => {
+      const dropdownEl = document.getElementById("navbar-dropdown-link-connexion");
+      console.log('typeof(dropdownEl): ', typeof(dropdownEl))
+          {const instance = Dropdown.getInstance(dropdownEl)}
+          instance?.hide(); 
+     };
+
   
   return (
     <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light my_nav fixed-top">
+    <Navbar>
+    <Nav className="navbar navbar-expand-lg navbar-light bg-light my_nav fixed-top">
       <div className="container-fluid d-flex">
       <Nav.Link as={Link} to="/">
         <img style={{height:'80 px', width:'80px'}} src={ Jumbotron }/>
       </Nav.Link>
 
-        <button
+{/*         <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -38,7 +47,8 @@ export const MainMenu = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="navbar-collapse collapse" id="navbarSupportedContent">
+ */}
+         <div className="navbar-collapse collapse" id="navbarSupportedContent">
           <ul className="navbar-nav  mb-2 mb-lg-0">
             {/* --- * --- * --- * A propos * --- * --- */}
             <li className="nav-item">
@@ -49,18 +59,22 @@ export const MainMenu = () => {
               <Nav.Link as={Link} to="/contact" className="nav-link">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Contact</strong></Nav.Link>
             </li>
             {/* --- * --- * --- * Connexion * --- * --- */}
-            <li className="nav-item dropdown">
-              <a
+            <NavDropdown
+              title="Connexion"
+              id="navbar-dropdown-link-connexion"          
+            >
+{/*               <a
                 href="#"
                 className="nav-link dropdown-toggle"
-                id="navbar-dropdown-link"
+                id="navbar-dropdown-link-connexion"
                 role="button"
-                data-bs-toggle="dropdown"
+                // data-bs-toggle="dropdown"
                 aria-expanded="false"
-                data-bs-auto-close="outside"
+                data-bs-auto-close="inside"
                 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Connexion</strong>
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbar-dropdown-link">
+ */}              {/* <ul className="dropdown-menu" aria-labelledby="navbar-dropdown-link"> */}
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
 
                 <li>
                 {authContext.user.status != "loggedIn" &&
@@ -71,7 +85,11 @@ export const MainMenu = () => {
                 
                 <li>
                   {authContext.user.status != "loggedIn" &&
-                  <Nav.Link className="dropdown-item" as={Link} to="/connexion"><strong>Connexion</strong>
+                  <Nav.Link 
+                    className="dropdown-item" 
+                    as={Link} to="/connexion"
+                    onClick={closeDropdown}
+                    ><strong>Connexion</strong>
                   </Nav.Link>}
                 </li>
                 
@@ -101,7 +119,7 @@ export const MainMenu = () => {
                   </ul>
                 </li>
               </ul>
-            </li>
+            </NavDropdown>
             {/* --- * --- * --- * Votre Compte * --- * --- */}
             {(authContext.user.status === "loggedIn" &&
             authContext.role.role != "hôte") && (
@@ -306,7 +324,8 @@ export const MainMenu = () => {
           </ul>
         </div>
       </div>
-    </nav>
+    </Nav>
+    </Navbar>
     </>
   );
 };
