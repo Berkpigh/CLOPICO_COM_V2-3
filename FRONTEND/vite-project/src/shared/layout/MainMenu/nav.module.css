@@ -1,0 +1,15 @@
+.myTitleColor a {
+    color: black;
+}
+.myTitleFont a {
+    font-weight: 700;
+}
+.myTitleHover a:hover {
+    color: black;
+}
+.myTitleFocus a:focus {
+    color: black;
+}
+.myTitleShow.show {
+    color: black;
+}

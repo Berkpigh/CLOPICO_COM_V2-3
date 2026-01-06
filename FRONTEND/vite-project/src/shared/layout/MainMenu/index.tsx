@@ -7,6 +7,7 @@ import Jumbotron from "/LogoCLcarré.jpg";
 
 import { Container, Navbar, Nav, NavDropdown, ButtonGroup, Button } from "react-bootstrap";
 import { RootState } from "../../../redux/store/storeRedux";
+import styles from "./nav.module.css"
 /**
  * Menu principal de l'application
  */
@@ -22,9 +23,9 @@ export const MainMenu = () => {
   return (
   <>
   <Container>
-    <Navbar expand="lg" bg="success" data-bs-theme="dark">
+    <Navbar expand="lg" bg="light" data-bs-theme="dark">
       <Container>
-        <Nav.Link as={Link} to="/">
+        <Nav.Link className="me-4" as={Link} to="/">
           <img style={{height:'80 px', width:'80px'}} src={ Jumbotron }/>
         </Nav.Link>
         <Navbar.Toggle aria-controls="main-navbar-nav"></Navbar.Toggle>
@@ -32,11 +33,19 @@ export const MainMenu = () => {
 
           <Nav className="me-auto mb-2 mb-lg-0">
   {/* --- * --- * --- * A propos * --- * --- */}
-            <Nav.Link as={Link} to="/apropos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>A propos</strong></Nav.Link>
+            <Nav.Link className="mx-4 colblack" as={Link} to="/apropos">
+              <strong>A propos</strong>
+            </Nav.Link>
   {/* --- * --- * --- * Contact * --- * --- */}
-            <Nav.Link as={Link} to="/contact" className="nav-link">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Contact</strong></Nav.Link>
+            <Nav.Link className="mx-4 colblack" as={Link} to="/contact" >
+              <strong>Contact</strong>
+            </Nav.Link>
   {/* --- * --- * --- * Connexion * --- * --- */}
-            <NavDropdown title="Connexion" id="navdropdown-connexion">
+            <NavDropdown className={`${styles['myTitleColor']} 
+                                    ${styles['myTitleFont']} 
+                                    ${styles['myTitleHover']}
+                                    ${styles['myTitleFocus']}
+                                    ${styles['myTitleShow']}`} title="Connexion" data-bs-theme="light" id="navdropdown-connexion">
               {authContext.user.status != "loggedIn" &&
                 authContext.role.status != 'ok' &&
                 <NavDropdown.Item as={Link} to="/enregistrement">
@@ -78,8 +87,7 @@ export const MainMenu = () => {
                 </NavDropdown.Item>
             </NavDropdown>)}
 {/* --- * --- * --- * Magasin * --- * --- */}
-            <Nav.Link as={Link} to="/magasin">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Nav.Link className="mx-4 colblack" as={Link} to="/magasin">
               <strong>Magasin</strong>
             </Nav.Link>
 {/* --- * --- * --- * Panier * --- * --- */}

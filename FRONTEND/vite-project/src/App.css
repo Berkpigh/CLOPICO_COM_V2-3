@@ -91,6 +91,9 @@ body {
 .colgreen {
   color : '#00FF00'
 }
+.colwhite {
+  color : white
+}
 .all{
   text-align: left;
 }
