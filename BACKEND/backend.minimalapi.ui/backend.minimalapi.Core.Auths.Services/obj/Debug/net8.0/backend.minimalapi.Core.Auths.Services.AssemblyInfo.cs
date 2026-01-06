@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend.minimalapi.Core.Auths.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+817ce53ad560319ce1655d323f71ea69b85d29d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a244fd2d6fd7043443727f9a6392c2f10b5a2721")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend.minimalapi.Core.Auths.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend.minimalapi.Core.Auths.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

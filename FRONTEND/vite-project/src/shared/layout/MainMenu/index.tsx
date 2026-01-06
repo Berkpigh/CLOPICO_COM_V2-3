@@ -5,7 +5,7 @@ import { useAuthenticationContext } from "../../../features/authentication/store
 
 import Jumbotron from "/LogoCLcarré.jpg";
 
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { RootState } from "../../../redux/store/storeRedux";
 /**
  * Menu principal de l'application
@@ -18,107 +18,46 @@ export const MainMenu = () => {
 //  console.log('etapanier :', etatpanier)
 //  console.log('user.status APRES: ', authContext.user.status)
 //  console.log('role.role APRES:', authContext.role.role)
-
-    const closeDropdown = () => {
-      const dropdownEl = document.getElementById("navbar-dropdown-link-connexion");
-      console.log('typeof(dropdownEl): ', typeof(dropdownEl))
-          {const instance = Dropdown.getInstance(dropdownEl)}
-          instance?.hide(); 
-     };
-
   
   return (
-    <>
-    <Navbar>
-    <Nav className="navbar navbar-expand-lg navbar-light bg-light my_nav fixed-top">
-      <div className="container-fluid d-flex">
-      <Nav.Link as={Link} to="/">
-        <img style={{height:'80 px', width:'80px'}} src={ Jumbotron }/>
-      </Nav.Link>
+  <>
+  <Container>
+    <Navbar expand="lg" bg="success" data-bs-theme="dark">
+      <Container>
+        <Nav.Link as={Link} to="/">
+          <img style={{height:'80 px', width:'80px'}} src={ Jumbotron }/>
+        </Nav.Link>
+        <Navbar.Toggle aria-controls="main-navbar-nav"></Navbar.Toggle>
+        <Navbar.Collapse id="main-navbar-nav">
 
-{/*         <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
- */}
-         <div className="navbar-collapse collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav  mb-2 mb-lg-0">
+          <Nav className="me-auto mb-2 mb-lg-0">
             {/* --- * --- * --- * A propos * --- * --- */}
-            <li className="nav-item">
-              <Nav.Link as={Link} to="/apropos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>A propos</strong></Nav.Link>
-            </li>
+            <Nav.Link as={Link} to="/apropos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>A propos</strong></Nav.Link>
             {/* --- * --- * --- * Contact * --- * --- */}
-            <li className="nav-item">
-              <Nav.Link as={Link} to="/contact" className="nav-link">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Contact</strong></Nav.Link>
-            </li>
+            <Nav.Link as={Link} to="/contact" className="nav-link">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Contact</strong></Nav.Link>
             {/* --- * --- * --- * Connexion * --- * --- */}
-            <NavDropdown
-              title="Connexion"
-              id="navbar-dropdown-link-connexion"          
-            >
-{/*               <a
-                href="#"
-                className="nav-link dropdown-toggle"
-                id="navbar-dropdown-link-connexion"
-                role="button"
-                // data-bs-toggle="dropdown"
-                aria-expanded="false"
-                data-bs-auto-close="inside"
-                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Connexion</strong>
-              </a>
- */}              {/* <ul className="dropdown-menu" aria-labelledby="navbar-dropdown-link"> */}
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
-
-                <li>
-                {authContext.user.status != "loggedIn" &&
-                 authContext.role.status != 'ok' &&
-                  <Nav.Link className="dropdown-item" as={Link} to="/enregistrement"><strong>Enregistrement</strong>
-                  </Nav.Link>}
-                </li>
-                
-                <li>
-                  {authContext.user.status != "loggedIn" &&
-                  <Nav.Link 
-                    className="dropdown-item" 
-                    as={Link} to="/connexion"
-                    onClick={closeDropdown}
-                    ><strong>Connexion</strong>
-                  </Nav.Link>}
-                </li>
-                
-                <li>
-                  {authContext.user.status === "loggedIn" &&
-                  <Nav.Link className="dropdown-item" as={Link} to="/deconnexion"><strong>Déconnexion</strong>
-                  </Nav.Link>}
-                </li>
-
-                <li className="dropdown dropend">
-                  <a
-                    href="#"
-                    className="dropdown-item dropdown-toggle"
-                    id="navbar-dropdown-list-deep-1"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    -----------
-                  </a>
-                  <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbar-dropdown-link">
-                    {(authContext.role.role === "superadmin" ||
-                    authContext.role.role === "admin") && (
-                    <li>
-                      <Nav.Link className="dropdown-item" as={Link} to="/enregistrement">
-                      <strong>Création Compte</strong></Nav.Link>
-                    </li>)}
-                  </ul>
-                </li>
-              </ul>
+            <NavDropdown title="Connexion" id="navdropdown-connexion">
+              {authContext.user.status != "loggedIn" &&
+                authContext.role.status != 'ok' &&
+                <NavDropdown.Item as={Link} to="/enregistrement">
+                  <strong>Enregistrement</strong>
+                </NavDropdown.Item>}
+              {authContext.user.status != "loggedIn" &&
+                <NavDropdown.Item as={Link} to="/connexion"
+                  ><strong>Connexion</strong>
+                </NavDropdown.Item>}
+              {authContext.user.status === "loggedIn" &&
+                <NavDropdown.Item as={Link} to="/deconnexion">
+                  <strong>Déconnexion</strong>
+                </NavDropdown.Item>}
+                <NavDropdown.Divider />
+                  {(authContext.role.role === "superadmin" ||
+                  authContext.role.role === "admin") && (
+                    <NavDropdown title="Réservé admin" id="navdropdown-créationcompte">
+                      <Nav.Item as={Link} to="/enregistrement">
+                        <strong>Création Compte</strong>
+                      </Nav.Item>
+                    </NavDropdown>)}
             </NavDropdown>
             {/* --- * --- * --- * Votre Compte * --- * --- */}
             {(authContext.user.status === "loggedIn" &&
@@ -325,8 +264,11 @@ export const MainMenu = () => {
         </div>
       </div>
     </Nav>
+    </Navbar.Collapse>
+      </Container>
     </Navbar>
-    </>
+  </Container>
+  </>
   );
 };
 
