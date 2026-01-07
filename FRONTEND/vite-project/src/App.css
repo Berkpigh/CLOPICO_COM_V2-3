@@ -54,9 +54,37 @@ body {
   color: black;
 }
 #navdropdown-connexion { 
-  --bs-nav-link-color: black; 
-  --bs-navbar-active-color: red; 
-} 
+  --bs-nav-link-color: black;
+  --bs-navbar-active-color: green; 
+}
+#navdropdown-créationcompte {
+  --bs-nav-link-color: black;
+  --bs-navbar-active-color: green; 
+}
+#navdropdown-votrecompte {
+  --bs-nav-link-color: black;
+  --bs-navbar-active-color: blue;
+}
+#navdropdown-panier {
+  --bs-nav-link-color: black;
+  --bs-navbar-active-color: green;
+}
+#navdropdown-backoffice-produits {
+  --bs-nav-link-color: black;
+  --bs-navbar-active-color: green;
+}
+#navdropdown-cuvées {
+  --bs-nav-link-color: black;
+  --bs-navbar-active-color: blue;
+}
+#navdropdown-bouteilles {
+  --bs-nav-link-color: black;
+  --bs-navbar-active-color: blue;
+}
+#navdropdown-produits{
+  --bs-nav-link-color: black;
+  --bs-navbar-active-color: blue;
+}
 .card {
   padding: 2em;
 }

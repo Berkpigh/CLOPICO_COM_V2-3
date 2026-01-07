@@ -42,8 +42,7 @@ export const MainMenu = () => {
             </Nav.Link>
   {/* --- * --- * --- * Connexion * --- * --- */}
             <NavDropdown className={`${styles.myTitleFont} 
-                                    ${styles.myTitleHover}
-                                    `} 
+                                    ${styles.myTitleHover}`} 
                                     title="Connexion" 
                                     data-bs-theme="light" 
                                     id="navdropdown-connexion">
@@ -63,7 +62,10 @@ export const MainMenu = () => {
                 <NavDropdown.Divider />
                   {(authContext.role.role === "superadmin" ||
                   authContext.role.role === "admin") && (
-                    <NavDropdown title="Réservé admin" id="navdropdown-créationcompte">
+                    <NavDropdown className={`${styles.myTitleFont} 
+                                            ${styles.myTitleHover}`}
+                                            title="Réservé admin"
+                                            id="navdropdown-créationcompte">
                       <Nav.Item as={Link} to="/enregistrement">
                         <strong>Création Compte</strong>
                       </Nav.Item>
@@ -72,7 +74,11 @@ export const MainMenu = () => {
 {/* --- * --- * --- * Votre Compte * --- * --- */}
             {(authContext.user.status === "loggedIn" &&
             authContext.role.role != "hôte") && (
-              <NavDropdown title="" as={ButtonGroup}>
+              <NavDropdown  className={`${styles.myTitleFont} 
+                                        ${styles.myTitleHover}`}
+                                        title=""
+                                        id="navdropdown-votrecompte"
+                                        as={ButtonGroup}>
                 <Button variant="">
                   <svg xmlns="http://www.w3.org/2000/svg"
                         height="24px" 
@@ -88,12 +94,16 @@ export const MainMenu = () => {
                 </NavDropdown.Item>
             </NavDropdown>)}
 {/* --- * --- * --- * Magasin * --- * --- */}
-            <Nav.Link className="mx-4 colblack" as={Link} to="/magasin">
+            <Nav.Link className="mx-4" as={Link} to="/magasin">
               <strong>Magasin</strong>
             </Nav.Link>
 {/* --- * --- * --- * Panier * --- * --- */}
             { etatpanier && (
-              <NavDropdown title="" as={ButtonGroup}>
+              <NavDropdown className={`${styles.myTitleFont} 
+                                        ${styles.myTitleHover}`}
+                                        title=""
+                                        id="navdropdown-panier"
+                                        as={ButtonGroup}>
                 <Button variant="">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -169,8 +179,14 @@ export const MainMenu = () => {
 {/* --- * --- * --- * BackOffice Produits * --- * --- */}
             {(authContext.role.role === "superadmin" ||
             authContext.role.role === "admin") && (
-              <NavDropdown title="BackOffice Produits">
-                <NavDropdown title="Cuvées">
+              <NavDropdown className={`${styles.myTitleFont} 
+                                        ${styles.myTitleHover}`}
+                                        title="BackOffice Produits"
+                                        id="navdropdown-backoffice-produits">
+                <NavDropdown className={`${styles.myTitleFont} 
+                                        ${styles.myTitleHover}`}
+                                        title="Cuvées"
+                                        id="navdropdown-cuvées">
 {/* ---  ---  --- * Cuvées * --- --- */}
                   <NavDropdown.Item as={Link} to="/nouvcuvee">
                     <strong>Nouvelle cuvée</strong>
@@ -180,13 +196,19 @@ export const MainMenu = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
 {/* ---  ---  --- * Bouteilles * --- --- */}
-                <NavDropdown title="Bouteilles">
+                <NavDropdown className={`${styles.myTitleFont} 
+                                        ${styles.myTitleHover}`}
+                                        title="Bouteilles"
+                                        id="navdropdown-bouteilles">
                   <NavDropdown.Item as={Link} to="/descbouteille">
                     <strong>Bouteilles, Images, Produits, Stock</strong>
                   </NavDropdown.Item>
                 </NavDropdown>
 {/* ---  ---  --- * Produits * --- --- */}
-                <NavDropdown title="produits">
+                <NavDropdown className={`${styles.myTitleFont} 
+                                        ${styles.myTitleHover}`}
+                                        title="produits"
+                                        id="navdropdown-produits">
                   <NavDropdown.Item as={Link} to="/nouvproduit">
                       <strong>Nouveau produit</strong>
                   </NavDropdown.Item>
