@@ -1,6 +1,7 @@
 /*html {
   background-color: white;
 }*/
+
 body {
   height: 100%;
   width: 100%;
@@ -16,6 +17,7 @@ body {
   background-color: white;
 /*  --bs-secondary-bg: #20c997 */
   --bs-secondary-bg: #8fffbe;
+/*  --bs-nav-link-color: rgba(0,0,0,0.8); */
 }
 
 .logo {
@@ -45,7 +47,16 @@ body {
     animation: logo-spin infinite 20s linear;
   }
 }
-
+.nav-link {
+  color: black;
+}
+.nav-link:focus, .nav-link:hover {
+  color: black;
+}
+#navdropdown-connexion { 
+  --bs-nav-link-color: black; 
+  --bs-navbar-active-color: red; 
+} 
 .card {
   padding: 2em;
 }

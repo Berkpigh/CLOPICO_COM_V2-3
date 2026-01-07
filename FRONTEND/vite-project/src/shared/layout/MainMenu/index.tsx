@@ -33,19 +33,20 @@ export const MainMenu = () => {
 
           <Nav className="me-auto mb-2 mb-lg-0">
   {/* --- * --- * --- * A propos * --- * --- */}
-            <Nav.Link className="mx-4 colblack" as={Link} to="/apropos">
+            <Nav.Link className="mx-4" as={Link} to="/apropos">
               <strong>A propos</strong>
             </Nav.Link>
   {/* --- * --- * --- * Contact * --- * --- */}
-            <Nav.Link className="mx-4 colblack" as={Link} to="/contact" >
+            <Nav.Link className="mx-4" as={Link} to="/contact" >
               <strong>Contact</strong>
             </Nav.Link>
   {/* --- * --- * --- * Connexion * --- * --- */}
-            <NavDropdown className={`${styles['myTitleColor']} 
-                                    ${styles['myTitleFont']} 
-                                    ${styles['myTitleHover']}
-                                    ${styles['myTitleFocus']}
-                                    ${styles['myTitleShow']}`} title="Connexion" data-bs-theme="light" id="navdropdown-connexion">
+            <NavDropdown className={`${styles.myTitleFont} 
+                                    ${styles.myTitleHover}
+                                    `} 
+                                    title="Connexion" 
+                                    data-bs-theme="light" 
+                                    id="navdropdown-connexion">
               {authContext.user.status != "loggedIn" &&
                 authContext.role.status != 'ok' &&
                 <NavDropdown.Item as={Link} to="/enregistrement">

@@ -1,15 +1,19 @@
-.myTitleColor a {
+/* .myTitleColor a {
     color: black;
-}
+} */
+
 .myTitleFont a {
     font-weight: 700;
 }
 .myTitleHover a:hover {
     color: black;
 }
-.myTitleFocus a:focus {
+.myTitleShow a.show {
     color: black;
 }
-.myTitleShow.show {
+.myTitleExanded a[aria-expanded="true"] {
+    color: black;
+}
+.myTitleFocus a:focus {
     color: black;
 }
