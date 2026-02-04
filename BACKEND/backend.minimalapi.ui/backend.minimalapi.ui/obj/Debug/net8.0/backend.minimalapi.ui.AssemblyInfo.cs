@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend.minimalapi.ui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+607e6005a6ea0006aa4cf87e642e4279be410a8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4a33f5f585b2972ec81d693eef6835092ba309a")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend.minimalapi.ui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend.minimalapi.ui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

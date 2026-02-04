@@ -13,6 +13,7 @@ import { storeimageinitial, storeimage } from "../../../../redux/slices/imagetou
 import { BASE_URL } from "../../../../core/infrastructures/https/http-handler";
 import { lBouteilles, oneBouteille, resultGetListeBouteille, MesE, Mes_Error } from "../../models";
 import { FetchGetListeBouteille } from "../../services/apis";
+import { UpdateBouteilleImage } from '../UpdateBouteilleImage/index';
 
 export const DescBouteille = () => {
     const etatprod = useSelector((state: RootState) => state.etatproduit.loaded);
@@ -220,7 +221,7 @@ export const DescBouteille = () => {
 
     {/* --- * --- * --- * --- * TITRE * --- * --- * --- * --- */}
 
-            <Row as='div' className="divh10"></Row>
+            <Row as='div' className="divh20"></Row>
             <Row>
                 <Col sm={3}>
                 <Form.Group className="" controlId="errmsgs">
@@ -247,7 +248,8 @@ export const DescBouteille = () => {
               listBouteilleState.map((bout, index) => <Row key={index} className="align-items-start mb-1">
                 <Col sm={1}>{bout.bouteilleId}</Col>
                 <Col sm={3}  className="all">{bout.libelléBouteille}</Col>
-                <Col sm={1}><Button onClick={() => updateImage(bout)} type="button" variant="success" size="sm">+</Button></Col>
+                {/* <Col sm={1}><Button onClick={() => updateImage(bout)} type="button" variant="success" size="sm">+</Button></Col> */}
+                <Col sm={1}><Button onClick={() => updateImage(bout)} type="button" variant="success" size="sm">{bout.dbouteilleImages.length}</Button></Col>
                 <Col sm={1}><Button onClick={() => updateProduit(bout)} type="button" variant="success" size="sm">P</Button></Col>
                 <Col sm={1}><Button onClick={() => updateStock(bout)} type="button" variant="success" size="sm">S</Button></Col>
                 </Row>

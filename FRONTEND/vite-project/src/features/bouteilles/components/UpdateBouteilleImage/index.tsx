@@ -117,6 +117,7 @@ export const UpdateBouteilleImage = () => {
         imageDesc: "",
         imageUrl: ""
     }])
+    const [bouteilleImageCount, setBouteilleImageCount] = useState<number>(0)
     const [imageToDeleteState, setImageToDeleteState] = useState<oneBouteilleImage>({
       bouteilleImageId  : 0,
       bouteilleId  : 0,
@@ -213,8 +214,9 @@ export const UpdateBouteilleImage = () => {
     const setEtats = () => {
         if(etatimagloaded){
             setBouteilleState(etatBouteilleImage)
-            const newList = divideBouteilleImageId()
-            setBouteilleImagesState(newList)   
+            let newList: LBouteilleImages = divideBouteilleImageId()
+            setBouteilleImagesState(newList)
+            setBouteilleImageCount(newList.length)   
         } else {
             initMessages()
             addMessage(0, errmsgs[0])
@@ -246,6 +248,7 @@ export const UpdateBouteilleImage = () => {
         const newList: LBouteilleImages = [...imageList, image]
         newList.sort((a,b) => a.bouteilleImageId - b.bouteilleImageId)
         setBouteilleImagesState(newList)
+        setBouteilleImageCount(bouteilleImageCount + 1)   
     }
 // *--- *--- *---*--- *--- Click sur MAJ d'une image
     const updateBouteilleImage = (id: number) => {
@@ -283,6 +286,7 @@ export const UpdateBouteilleImage = () => {
             let newState: LBouteilleImages = bouteilleImagesState
             let filterNewState: LBouteilleImages = newState.filter(status => status.bouteilleImageId !== id)
             setBouteilleImagesState(filterNewState)
+            setBouteilleImageCount(bouteilleImageCount - 1)   
         }
         setShowDeleteState(false)
         setRecordOkState(true)
@@ -347,7 +351,7 @@ export const UpdateBouteilleImage = () => {
         <Form>
     {/* --- * --- * --- * --- * TITRE * --- * --- * --- * --- */}
 
-            <Row as='div' className="divh10"></Row>
+            <Row as='div' className="divh20"></Row>
             <Row>
                 <Col sm={6}>
                 <Form.Group className="" controlId="errmsgs">
@@ -361,9 +365,9 @@ export const UpdateBouteilleImage = () => {
                 <Col sm={5}><h4 className="all disinline">Photos de la bouteille&nbsp;&nbsp;{bouteilleState.bouteilleId}&nbsp;&nbsp;{bouteilleState.libelléBouteille}</h4></Col>
             </Row>
             <Row>
-                <Col sm={5}>
+                <Col sm={bouteilleImageCount * 3}>
                     <CardGroup>
-                        <BouteilleImageList items={bouteilleImagesState} 
+                        <BouteilleImageList items={bouteilleImagesState}
                             updateBout={updateBouteilleImage}
                             deleteBout={deleteBouteilleImage}>
                         </BouteilleImageList>
